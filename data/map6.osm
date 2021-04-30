@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.8.3 (128426 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="21.0051800" minlon="105.8416500" maxlat="21.0072800" maxlon="105.8458600"/>
+ <node id="84819708" visible="true" version="10" changeset="72282235" timestamp="2019-07-15T21:38:21Z" user="Nathan_Rose" uid="10068986" lat="21.0072532" lon="105.8441785"/>
+ <node id="84819709" visible="true" version="5" changeset="11617109" timestamp="2012-05-16T19:23:55Z" user="Trần Thái Dương" uid="661446" lat="21.0071919" lon="105.8442630"/>
+ <node id="84819710" visible="true" version="5" changeset="11617109" timestamp="2012-05-16T19:23:55Z" user="Trần Thái Dương" uid="661446" lat="21.0070560" lon="105.8445787"/>
+ <node id="84819711" visible="true" version="6" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953" lat="21.0069145" lon="105.8448637"/>
+ <node id="84819712" visible="true" version="5" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953" lat="21.0066907" lon="105.8451610"/>
+ <node id="84819713" visible="true" version="5" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953" lat="21.0065325" lon="105.8453283"/>
+ <node id="84819714" visible="true" version="7" changeset="95582557" timestamp="2020-12-10T02:37:59Z" user="Username42069" uid="12250897" lat="21.0062708" lon="105.8455784">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:island" v="no"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="supervised" v="no"/>
+ </node>
+ <node id="283127795" visible="true" version="8" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0050516" lon="105.8456754"/>
+ <node id="426927875" visible="true" version="11" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0050370" lon="105.8446398"/>
+ <node id="426927892" visible="true" version="4" changeset="45843287" timestamp="2017-02-06T01:03:13Z" user="LeHaiHa" uid="5153608" lat="21.0068070" lon="105.8472555"/>
+ <node id="426927906" visible="true" version="2" changeset="4121727" timestamp="2010-03-14T08:28:27Z" user="LucNV" uid="244804" lat="21.0066643" lon="105.8467842"/>
+ <node id="426927907" visible="true" version="4" changeset="11617109" timestamp="2012-05-16T19:23:54Z" user="Trần Thái Dương" uid="661446" lat="21.0066130" lon="105.8458247"/>
+ <node id="442572174" visible="true" version="4" changeset="11617109" timestamp="2012-05-16T19:23:54Z" user="Trần Thái Dương" uid="661446" lat="21.0062399" lon="105.8458057"/>
+ <node id="442575424" visible="true" version="8" changeset="72282235" timestamp="2019-07-15T21:38:21Z" user="Nathan_Rose" uid="10068986" lat="21.0073402" lon="105.8440989"/>
+ <node id="444221145" visible="true" version="4" changeset="72278939" timestamp="2019-07-15T19:29:52Z" user="Nathan_Rose" uid="10068986" lat="21.0075114" lon="105.8426819"/>
+ <node id="444504947" visible="true" version="5" changeset="69744452" timestamp="2019-04-30T17:40:36Z" user="Whimsical Otter" uid="7466823" lat="21.0061208" lon="105.8456810"/>
+ <node id="448040867" visible="true" version="4" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0044267" lon="105.8455732"/>
+ <node id="642960798" visible="true" version="4" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0022001" lon="105.8448225"/>
+ <node id="642960799" visible="true" version="3" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0020403" lon="105.8448913"/>
+ <node id="642960800" visible="true" version="2" changeset="11871795" timestamp="2012-06-12T07:52:53Z" user="Nguyễn Huy Quyền" uid="701518" lat="21.0030613" lon="105.8446992"/>
+ <node id="642960801" visible="true" version="2" changeset="72773650" timestamp="2019-07-29T14:31:40Z" user="Corban8" uid="4240913" lat="21.0018845" lon="105.8449587"/>
+ <node id="642960802" visible="true" version="4" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0026238" lon="105.8447452"/>
+ <node id="642960803" visible="true" version="7" changeset="95489444" timestamp="2020-12-08T13:07:19Z" user="Username42069" uid="12250897" lat="21.0017916" lon="105.8449938">
+  <tag k="button_operated" v="no"/>
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals:sound" v="no"/>
+  <tag k="traffic_signals:vibration" v="no"/>
+ </node>
+ <node id="642960808" visible="true" version="3" changeset="11871795" timestamp="2012-06-12T07:52:52Z" user="Nguyễn Huy Quyền" uid="701518" lat="21.0036021" lon="105.8448545"/>
+ <node id="642960809" visible="true" version="3" changeset="11871795" timestamp="2012-06-12T07:52:52Z" user="Nguyễn Huy Quyền" uid="701518" lat="21.0032608" lon="105.8446927"/>
+ <node id="642960810" visible="true" version="3" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0040889" lon="105.8453170"/>
+ <node id="915310590" visible="true" version="3" changeset="11871795" timestamp="2012-06-12T07:52:52Z" user="Nguyễn Huy Quyền" uid="701518" lat="21.0033815" lon="105.8447171"/>
+ <node id="915318640" visible="true" version="3" changeset="11871795" timestamp="2012-06-12T07:52:52Z" user="Nguyễn Huy Quyền" uid="701518" lat="21.0037694" lon="105.8449996"/>
+ <node id="1706569254" visible="true" version="2" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0069059" lon="105.8440121"/>
+ <node id="1706569255" visible="true" version="3" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0067356" lon="105.8425475"/>
+ <node id="1706569256" visible="true" version="1" changeset="11220521" timestamp="2012-04-08T03:13:24Z" user="QTG" uid="650909" lat="21.0053281" lon="105.8461337"/>
+ <node id="1706569258" visible="true" version="2" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0059133" lon="105.8418362"/>
+ <node id="1706569260" visible="true" version="5" changeset="88070782" timestamp="2020-07-16T07:48:28Z" user="vietnam321" uid="11196308" lat="21.0036043" lon="105.8446012"/>
+ <node id="1706569262" visible="true" version="4" changeset="87819718" timestamp="2020-07-10T13:27:37Z" user="vietnam321" uid="11196308" lat="21.0045756" lon="105.8423172"/>
+ <node id="1706569263" visible="true" version="3" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0074932" lon="105.8437408"/>
+ <node id="1706569264" visible="true" version="4" changeset="88070782" timestamp="2020-07-16T07:48:28Z" user="vietnam321" uid="11196308" lat="21.0036511" lon="105.8437830"/>
+ <node id="1706569269" visible="true" version="2" changeset="15405529" timestamp="2013-03-18T09:25:24Z" user="Người Hà Nội" uid="1280914" lat="21.0067989" lon="105.8475463"/>
+ <node id="1706569271" visible="true" version="1" changeset="11220521" timestamp="2012-04-08T03:13:25Z" user="QTG" uid="650909" lat="21.0065774" lon="105.8458463"/>
+ <node id="1706569272" visible="true" version="3" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0068112" lon="105.8479188"/>
+ <node id="1706569275" visible="true" version="3" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0061335" lon="105.8422064"/>
+ <node id="1706569276" visible="true" version="2" changeset="13296153" timestamp="2012-09-29T12:59:50Z" user="dogiaplinh_94" uid="908152" lat="21.0061971" lon="105.8455572"/>
+ <node id="1706569280" visible="true" version="2" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0059435" lon="105.8464327"/>
+ <node id="1706569281" visible="true" version="3" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0059507" lon="105.8458577"/>
+ <node id="1706569282" visible="true" version="2" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0028489" lon="105.8460302"/>
+ <node id="1706569285" visible="true" version="2" changeset="13296153" timestamp="2012-09-29T12:59:50Z" user="dogiaplinh_94" uid="908152" lat="21.0065876" lon="105.8451566"/>
+ <node id="1706569288" visible="true" version="2" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0060396" lon="105.8464341"/>
+ <node id="1706569292" visible="true" version="2" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0070664" lon="105.8424186"/>
+ <node id="1706569295" visible="true" version="2" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0035987" lon="105.8486324"/>
+ <node id="1706569298" visible="true" version="2" changeset="87819718" timestamp="2020-07-10T13:27:37Z" user="vietnam321" uid="11196308" lat="21.0042289" lon="105.8452898"/>
+ <node id="1706569302" visible="true" version="1" changeset="11220521" timestamp="2012-04-08T03:13:26Z" user="QTG" uid="650909" lat="21.0051522" lon="105.8462262"/>
+ <node id="1706569303" visible="true" version="1" changeset="11220521" timestamp="2012-04-08T03:13:26Z" user="QTG" uid="650909" lat="21.0061918" lon="105.8458634"/>
+ <node id="1706569304" visible="true" version="2" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0049480" lon="105.8457031"/>
+ <node id="1706569308" visible="true" version="3" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0060469" lon="105.8458591"/>
+ <node id="1706569309" visible="true" version="4" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0054911" lon="105.8445058"/>
+ <node id="1706569311" visible="true" version="2" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0057626" lon="105.8420022"/>
+ <node id="1706569313" visible="true" version="4" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0055706" lon="105.8437217"/>
+ <node id="1706569315" visible="true" version="3" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0061697" lon="105.8480085"/>
+ <node id="1706569317" visible="true" version="4" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0053738" lon="105.8445057"/>
+ <node id="1706569321" visible="true" version="2" changeset="13296153" timestamp="2012-09-29T12:59:50Z" user="dogiaplinh_94" uid="908152" lat="21.0068190" lon="105.8448843"/>
+ <node id="1706569322" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0073952" lon="105.8418649"/>
+ <node id="1706569323" visible="true" version="2" changeset="13296153" timestamp="2012-09-29T12:59:50Z" user="dogiaplinh_94" uid="908152" lat="21.0071524" lon="105.8442467"/>
+ <node id="1706569325" visible="true" version="1" changeset="11220521" timestamp="2012-04-08T03:13:28Z" user="QTG" uid="650909" lat="21.0066175" lon="105.8468548"/>
+ <node id="1706569328" visible="true" version="1" changeset="11220521" timestamp="2012-04-08T03:13:28Z" user="QTG" uid="650909" lat="21.0052195" lon="105.8462290"/>
+ <node id="1706569329" visible="true" version="3" changeset="87821231" timestamp="2020-07-10T14:08:17Z" user="vietnam321" uid="11196308" lat="21.0038285" lon="105.8470019"/>
+ <node id="1706569330" visible="true" version="6" changeset="88070782" timestamp="2020-07-16T07:48:28Z" user="vietnam321" uid="11196308" lat="21.0037036" lon="105.8423042"/>
+ <node id="1706569335" visible="true" version="1" changeset="11220521" timestamp="2012-04-08T03:13:28Z" user="QTG" uid="650909" lat="21.0049549" lon="105.8455673"/>
+ <node id="1706569336" visible="true" version="1" changeset="11220521" timestamp="2012-04-08T03:13:28Z" user="QTG" uid="650909" lat="21.0051686" lon="105.8457816"/>
+ <node id="1706569339" visible="true" version="2" changeset="15405529" timestamp="2013-03-18T09:25:24Z" user="Người Hà Nội" uid="1280914" lat="21.0067403" lon="105.8472694"/>
+ <node id="1706569340" visible="true" version="2" changeset="13296153" timestamp="2012-09-29T12:59:50Z" user="dogiaplinh_94" uid="908152" lat="21.0069946" lon="105.8445476"/>
+ <node id="1706569341" visible="true" version="5" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0045943" lon="105.8416100"/>
+ <node id="1706569342" visible="true" version="1" changeset="11220521" timestamp="2012-04-08T03:13:29Z" user="QTG" uid="650909" lat="21.0045943" lon="105.8455244"/>
+ <node id="1706569349" visible="true" version="3" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0060758" lon="105.8425364"/>
+ <node id="1706569350" visible="true" version="1" changeset="11220521" timestamp="2012-04-08T03:13:29Z" user="QTG" uid="650909" lat="21.0052784" lon="105.8457863"/>
+ <node id="1706569354" visible="true" version="2" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0069606" lon="105.8423819"/>
+ <node id="1706569357" visible="true" version="2" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0057553" lon="105.8426867"/>
+ <node id="1706569361" visible="true" version="2" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0070582" lon="105.8440130"/>
+ <node id="1706569367" visible="true" version="2" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0058722" lon="105.8426881"/>
+ <node id="1706569368" visible="true" version="2" changeset="87821231" timestamp="2020-07-10T14:08:17Z" user="vietnam321" uid="11196308" lat="21.0043635" lon="105.8494530"/>
+ <node id="1706569373" visible="true" version="1" changeset="11220521" timestamp="2012-04-08T03:13:31Z" user="QTG" uid="650909" lat="21.0052657" lon="105.8461310"/>
+ <node id="1706569388" visible="true" version="1" changeset="11220521" timestamp="2012-04-08T03:13:31Z" user="QTG" uid="650909" lat="21.0053174" lon="105.8464230"/>
+ <node id="1706569403" visible="true" version="1" changeset="11220521" timestamp="2012-04-08T03:13:32Z" user="QTG" uid="650909" lat="21.0052125" lon="105.8464186"/>
+ <node id="1706569405" visible="true" version="3" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0067400" lon="105.8422158"/>
+ <node id="1904409159" visible="true" version="3" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0071940" lon="105.8426892"/>
+ <node id="1905155065" visible="true" version="4" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0062773" lon="105.8446903"/>
+ <node id="1927524889" visible="true" version="2" changeset="81067557" timestamp="2020-02-16T10:55:04Z" user="Trịnh Bảo Ngọc" uid="10787424" lat="21.0061469" lon="105.8430687">
+  <tag k="name" v="Quảng Trường C1"/>
+  <tag k="place" v="square"/>
+ </node>
+ <node id="1937927107" visible="true" version="5" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0065042" lon="105.8444709"/>
+ <node id="1937927116" visible="true" version="5" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0066343" lon="105.8435673"/>
+ <node id="1937927117" visible="true" version="5" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0066346" lon="105.8444709"/>
+ <node id="1937927119" visible="true" version="5" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0065041" lon="105.8435673"/>
+ <node id="1937936228" visible="true" version="2" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0058429" lon="105.8445753"/>
+ <node id="1937936232" visible="true" version="4" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953" lat="21.0062512" lon="105.8447873"/>
+ <node id="1937936233" visible="true" version="4" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953" lat="21.0062513" lon="105.8450343"/>
+ <node id="1937936237" visible="true" version="2" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0057127" lon="105.8446024"/>
+ <node id="1937936239" visible="true" version="2" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0058420" lon="105.8435468"/>
+ <node id="1937936241" visible="true" version="3" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0062449" lon="105.8446051"/>
+ <node id="1937936242" visible="true" version="3" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0062428" lon="105.8435598"/>
+ <node id="1937936244" visible="true" version="3" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0061195" lon="105.8435601"/>
+ <node id="1937936245" visible="true" version="3" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0061215" lon="105.8446054"/>
+ <node id="1937936247" visible="true" version="2" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0057116" lon="105.8435470"/>
+ <node id="1937936248" visible="true" version="4" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953" lat="21.0061311" lon="105.8447874"/>
+ <node id="1937938293" visible="true" version="1" changeset="13296153" timestamp="2012-09-29T13:01:45Z" user="dogiaplinh_94" uid="908152" lat="21.0068694" lon="105.8443065"/>
+ <node id="1937938295" visible="true" version="1" changeset="13296153" timestamp="2012-09-29T13:01:45Z" user="dogiaplinh_94" uid="908152" lat="21.0070041" lon="105.8440978"/>
+ <node id="1937938299" visible="true" version="1" changeset="13296153" timestamp="2012-09-29T13:01:45Z" user="dogiaplinh_94" uid="908152" lat="21.0070019" lon="105.8443022"/>
+ <node id="1937938301" visible="true" version="1" changeset="13296153" timestamp="2012-09-29T13:01:45Z" user="dogiaplinh_94" uid="908152" lat="21.0068694" lon="105.8441021"/>
+ <node id="2266120491" visible="true" version="2" changeset="75328400" timestamp="2019-10-05T21:30:18Z" user="HA TRUNG HIEU NGUYEN" uid="10355401" lat="21.0041270" lon="105.8423124"/>
+ <node id="3861040370" visible="true" version="1" changeset="35596347" timestamp="2015-11-26T17:41:39Z" user="Alicedom" uid="3415978" lat="21.0060221" lon="105.8458267"/>
+ <node id="3861040371" visible="true" version="1" changeset="35596347" timestamp="2015-11-26T17:41:39Z" user="Alicedom" uid="3415978" lat="21.0060221" lon="105.8458857"/>
+ <node id="3861040372" visible="true" version="1" changeset="35596347" timestamp="2015-11-26T17:41:39Z" user="Alicedom" uid="3415978" lat="21.0059745" lon="105.8458871"/>
+ <node id="3861040373" visible="true" version="1" changeset="35596347" timestamp="2015-11-26T17:41:39Z" user="Alicedom" uid="3415978" lat="21.0059758" lon="105.8458281"/>
+ <node id="4666455111" visible="true" version="1" changeset="45843397" timestamp="2017-02-06T01:16:16Z" user="LeHaiHa" uid="5153608" lat="21.0045593" lon="105.8462169"/>
+ <node id="4741290350" visible="true" version="1" changeset="46952660" timestamp="2017-03-18T10:50:03Z" user="Tralinh Duong" uid="5509194" lat="21.0067903" lon="105.8452798">
+  <tag k="addr:housenumber" v="55"/>
+  <tag k="addr:street" v="Trần Đại Nghĩa"/>
+  <tag k="name" v="Tạp hoá"/>
+  <tag k="shop" v="convenience"/>
+ </node>
+ <node id="4913875432" visible="true" version="1" changeset="49515922" timestamp="2017-06-14T01:50:20Z" user="Hieu Van" uid="2678766" lat="21.0068771" lon="105.8450627">
+  <tag k="name" v="Linh Kiện 69"/>
+  <tag k="shop" v="electronics"/>
+ </node>
+ <node id="5369311100" visible="true" version="1" changeset="55846850" timestamp="2018-01-29T02:45:07Z" user="manh nguyen duy" uid="7483713" lat="21.0066293" lon="105.8461293"/>
+ <node id="5684339528" visible="true" version="3" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0056937" lon="105.8431634">
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="5684339529" visible="true" version="2" changeset="81174055" timestamp="2020-02-18T13:52:05Z" user="Trịnh Bảo Ngọc" uid="10787424" lat="21.0066090" lon="105.8434638"/>
+ <node id="5684339530" visible="true" version="2" changeset="81174055" timestamp="2020-02-18T13:52:05Z" user="Trịnh Bảo Ngọc" uid="10787424" lat="21.0066156" lon="105.8427868"/>
+ <node id="5684339531" visible="true" version="2" changeset="82805583" timestamp="2020-03-30T06:14:41Z" user="DucToan2410" uid="7563149" lat="21.0062945" lon="105.8431570"/>
+ <node id="5684339532" visible="true" version="3" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0066138" lon="105.8431555"/>
+ <node id="5684339533" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0061846" lon="105.8430859"/>
+ <node id="5684339534" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0061658" lon="105.8431022"/>
+ <node id="5684339535" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0061513" lon="105.8431263"/>
+ <node id="5684339536" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0061469" lon="105.8431544"/>
+ <node id="5684339537" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0061531" lon="105.8431797"/>
+ <node id="5684339538" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0061646" lon="105.8431991"/>
+ <node id="5684339539" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0061797" lon="105.8432153"/>
+ <node id="5684339540" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0062077" lon="105.8432248"/>
+ <node id="5684339541" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0062369" lon="105.8432254"/>
+ <node id="5684339542" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0062770" lon="105.8431991"/>
+ <node id="5684339543" visible="true" version="3" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0062886" lon="105.8431788"/>
+ <node id="5684339544" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0062903" lon="105.8431240"/>
+ <node id="5684339545" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0062778" lon="105.8431008"/>
+ <node id="5684339546" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0062575" lon="105.8430841"/>
+ <node id="5684339547" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0062343" lon="105.8430772"/>
+ <node id="5684339548" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0062075" lon="105.8430779"/>
+ <node id="5684339550" visible="true" version="4" changeset="93369815" timestamp="2020-11-01T14:33:40Z" user="ItsLouisAnderson" uid="11691953" lat="21.0050443" lon="105.8436251"/>
+ <node id="5684339551" visible="true" version="2" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0051680" lon="105.8435779"/>
+ <node id="5684339552" visible="true" version="3" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0053148" lon="105.8432391"/>
+ <node id="5684339559" visible="true" version="2" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0056987" lon="105.8434707"/>
+ <node id="5684339560" visible="true" version="1" changeset="59767201" timestamp="2018-06-12T08:11:02Z" user="Rakesh9" uid="7671617" lat="21.0067253" lon="105.8434626"/>
+ <node id="5684339561" visible="true" version="2" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0056987" lon="105.8427813"/>
+ <node id="5684339562" visible="true" version="2" changeset="81067557" timestamp="2020-02-16T10:55:04Z" user="Trịnh Bảo Ngọc" uid="10787424" lat="21.0067328" lon="105.8427868"/>
+ <node id="5684339563" visible="true" version="2" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0060937" lon="105.8452553"/>
+ <node id="5684339578" visible="true" version="3" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0056762" lon="105.8446857"/>
+ <node id="5684339579" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0056849" lon="105.8438431"/>
+ <node id="5684339580" visible="true" version="2" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0060951" lon="105.8446889"/>
+ <node id="5684339581" visible="true" version="1" changeset="59767201" timestamp="2018-06-12T08:11:03Z" user="Rakesh9" uid="7671617" lat="21.0061018" lon="105.8438864"/>
+ <node id="5684339582" visible="true" version="1" changeset="59767201" timestamp="2018-06-12T08:11:03Z" user="Rakesh9" uid="7671617" lat="21.0059391" lon="105.8438891"/>
+ <node id="5716457421" visible="true" version="1" changeset="60134438" timestamp="2018-06-25T04:14:35Z" user="Malka7" uid="7671604" lat="21.0069306" lon="105.8453402"/>
+ <node id="5716457422" visible="true" version="1" changeset="60134438" timestamp="2018-06-25T04:14:35Z" user="Malka7" uid="7671604" lat="21.0069432" lon="105.8451471"/>
+ <node id="5835644967" visible="true" version="2" changeset="87892456" timestamp="2020-07-13T01:18:46Z" user="vietnam321" uid="11196308" lat="21.0054993" lon="105.8479254"/>
+ <node id="6483376386" visible="true" version="1" changeset="70402421" timestamp="2019-05-19T06:54:22Z" user="Dang Phan Linh" uid="10006388" lat="21.0062541" lon="105.8457214">
+  <tag k="addr:street" v="Trần Đại Nghĩa"/>
+  <tag k="amenity" v="cafe"/>
+  <tag k="internet_access" v="wlan"/>
+  <tag k="name" v="Cà Phê Góc Phố"/>
+  <tag k="name:en" v="Corner Coffee"/>
+  <tag k="opening_hours" v="Mo-Su 07:00-23:00"/>
+ </node>
+ <node id="6657842578" visible="true" version="4" changeset="95582438" timestamp="2020-12-10T02:33:36Z" user="Username42069" uid="12250897" lat="21.0048903" lon="105.8456732">
+  <tag k="crossing" v="marked"/>
+  <tag k="crossing:island" v="no"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="supervised" v="no"/>
+ </node>
+ <node id="6657853489" visible="true" version="1" changeset="72773650" timestamp="2019-07-29T14:31:40Z" user="Corban8" uid="4240913" lat="21.0019429" lon="105.8449372"/>
+ <node id="6657853493" visible="true" version="1" changeset="72773650" timestamp="2019-07-29T14:31:40Z" user="Corban8" uid="4240913" lat="21.0029971" lon="105.8447076"/>
+ <node id="6657854687" visible="true" version="2" changeset="78400846" timestamp="2019-12-14T07:01:37Z" user="HNMPT_Nguyễn Tuấn Anh" uid="10555721" lat="21.0056988" lon="105.8458041">
+  <tag k="addr:housenumber" v="75"/>
+  <tag k="addr:street" v="Trần Đại Nghĩa"/>
+ </node>
+ <node id="6657854688" visible="true" version="4" changeset="95582438" timestamp="2020-12-10T02:33:36Z" user="Username42069" uid="12250897" lat="21.0051751" lon="105.8456758">
+  <tag k="crossing" v="marked"/>
+  <tag k="crossing:island" v="no"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="supervised" v="no"/>
+ </node>
+ <node id="6658027047" visible="true" version="1" changeset="72776607" timestamp="2019-07-29T15:42:06Z" user="Corban8" uid="4240913" lat="21.0066583" lon="105.8466721"/>
+ <node id="6658027054" visible="true" version="1" changeset="72776607" timestamp="2019-07-29T15:42:06Z" user="Corban8" uid="4240913" lat="21.0066347" lon="105.8462307"/>
+ <node id="6658027055" visible="true" version="1" changeset="72776607" timestamp="2019-07-29T15:42:06Z" user="Corban8" uid="4240913" lat="21.0066577" lon="105.8457774"/>
+ <node id="6658027056" visible="true" version="1" changeset="72776607" timestamp="2019-07-29T15:42:06Z" user="Corban8" uid="4240913" lat="21.0066890" lon="105.8457331"/>
+ <node id="6658027057" visible="true" version="1" changeset="72776607" timestamp="2019-07-29T15:42:06Z" user="Corban8" uid="4240913" lat="21.0067090" lon="105.8456393"/>
+ <node id="6658027058" visible="true" version="1" changeset="72776607" timestamp="2019-07-29T15:42:06Z" user="Corban8" uid="4240913" lat="21.0067216" lon="105.8455735"/>
+ <node id="6658027059" visible="true" version="1" changeset="72776607" timestamp="2019-07-29T15:42:06Z" user="Corban8" uid="4240913" lat="21.0067428" lon="105.8455199"/>
+ <node id="6658027060" visible="true" version="1" changeset="72776607" timestamp="2019-07-29T15:42:06Z" user="Corban8" uid="4240913" lat="21.0067554" lon="105.8454636"/>
+ <node id="6658027061" visible="true" version="1" changeset="72776607" timestamp="2019-07-29T15:42:06Z" user="Corban8" uid="4240913" lat="21.0067604" lon="105.8453456"/>
+ <node id="6658396772" visible="true" version="2" changeset="95488169" timestamp="2020-12-08T13:04:26Z" user="Username42069" uid="12250897" lat="21.0035388" lon="105.8448151">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:island" v="no"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="7056058607" visible="true" version="1" changeset="78400846" timestamp="2019-12-14T07:01:37Z" user="HNMPT_Nguyễn Tuấn Anh" uid="10555721" lat="21.0056557" lon="105.8455811">
+  <tag k="addr:street" v="Phố Trần Đại Nghĩa"/>
+  <tag k="name" v="ENT_Cổng Trần Đại Nghĩa_ĐHBKHN"/>
+ </node>
+ <node id="7056058608" visible="true" version="2" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0056771" lon="105.8458210"/>
+ <node id="7056058609" visible="true" version="2" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0055586" lon="105.8458199"/>
+ <node id="7056058610" visible="true" version="2" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0055535" lon="105.8464382"/>
+ <node id="7056058611" visible="true" version="2" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0056718" lon="105.8464393"/>
+ <node id="7056058613" visible="true" version="1" changeset="78400846" timestamp="2019-12-14T07:01:37Z" user="HNMPT_Nguyễn Tuấn Anh" uid="10555721" lat="21.0055379" lon="105.8458034">
+  <tag k="addr:street" v="Phố Trần Đại Nghĩa"/>
+  <tag k="name" v="ENT_Cổng Vào Ký Túc Xá Bách khoa Đường Trần Đại Nghĩa"/>
+ </node>
+ <node id="7056058614" visible="true" version="1" changeset="78400846" timestamp="2019-12-14T07:01:37Z" user="HNMPT_Nguyễn Tuấn Anh" uid="10555721" lat="21.0055089" lon="105.8457566">
+  <tag k="addr:housenumber" v="81"/>
+  <tag k="addr:street" v="Phố Trần Đại Nghĩa"/>
+  <tag k="amenity" v="cafe"/>
+ </node>
+ <node id="7190777923" visible="true" version="2" changeset="87323053" timestamp="2020-06-30T04:53:52Z" user="vietnam321" uid="11196308" lat="21.0067750" lon="105.8447424"/>
+ <node id="7190777924" visible="true" version="2" changeset="87323053" timestamp="2020-06-30T04:53:52Z" user="vietnam321" uid="11196308" lat="21.0065765" lon="105.8447428"/>
+ <node id="7190777925" visible="true" version="2" changeset="87323053" timestamp="2020-06-30T04:53:52Z" user="vietnam321" uid="11196308" lat="21.0065770" lon="105.8450373"/>
+ <node id="7190777926" visible="true" version="2" changeset="87323053" timestamp="2020-06-30T04:53:52Z" user="vietnam321" uid="11196308" lat="21.0066962" lon="105.8450385"/>
+ <node id="7190777927" visible="true" version="2" changeset="87323053" timestamp="2020-06-30T04:53:52Z" user="vietnam321" uid="11196308" lat="21.0066946" lon="105.8449032"/>
+ <node id="7190777928" visible="true" version="2" changeset="87323053" timestamp="2020-06-30T04:53:52Z" user="vietnam321" uid="11196308" lat="21.0067752" lon="105.8449031"/>
+ <node id="7216073403" visible="true" version="2" changeset="82806072" timestamp="2020-03-30T06:25:10Z" user="DucToan2410" uid="7563149" lat="21.0062602" lon="105.8432144"/>
+ <node id="7222683783" visible="true" version="1" changeset="81174055" timestamp="2020-02-18T13:52:05Z" user="Trịnh Bảo Ngọc" uid="10787424" lat="21.0048462" lon="105.8455544"/>
+ <node id="7222760185" visible="true" version="2" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0050752" lon="105.8435953"/>
+ <node id="7222760186" visible="true" version="3" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0065044" lon="105.8427785"/>
+ <node id="7222760187" visible="true" version="3" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0067703" lon="105.8427796"/>
+ <node id="7222760188" visible="true" version="3" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0067696" lon="105.8430131"/>
+ <node id="7222760189" visible="true" version="3" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0069299" lon="105.8430137"/>
+ <node id="7222760190" visible="true" version="3" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0069314" lon="105.8425877"/>
+ <node id="7222760191" visible="true" version="3" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0065050" lon="105.8425859"/>
+ <node id="7222760192" visible="true" version="2" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0069346" lon="105.8432620"/>
+ <node id="7222760193" visible="true" version="2" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0069355" lon="105.8436387"/>
+ <node id="7222760194" visible="true" version="2" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0068880" lon="105.8436388"/>
+ <node id="7222760195" visible="true" version="3" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0068882" lon="105.8437183"/>
+ <node id="7222760196" visible="true" version="3" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0067457" lon="105.8437187"/>
+ <node id="7222760197" visible="true" version="2" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0067446" lon="105.8432343"/>
+ <node id="7222760198" visible="true" version="2" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0068702" lon="105.8432340"/>
+ <node id="7222760199" visible="true" version="2" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0068703" lon="105.8432622"/>
+ <node id="7222760200" visible="true" version="3" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0064279" lon="105.8425764"/>
+ <node id="7222760201" visible="true" version="3" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0059409" lon="105.8425665"/>
+ <node id="7222760202" visible="true" version="3" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0059375" lon="105.8427602"/>
+ <node id="7222760203" visible="true" version="3" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0064245" lon="105.8427700"/>
+ <node id="7368395546" visible="true" version="1" changeset="83090350" timestamp="2020-04-05T07:55:21Z" user="Trịnh Bảo Ngọc" uid="10787424" lat="21.0062465" lon="105.8428205">
+  <tag k="historic" v="memorial"/>
+ </node>
+ <node id="7368395547" visible="true" version="1" changeset="83090350" timestamp="2020-04-05T07:55:21Z" user="Trịnh Bảo Ngọc" uid="10787424" lat="21.0062130" lon="105.8431514">
+  <tag k="amenity" v="fountain"/>
+ </node>
+ <node id="7668352970" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0070080" lon="105.8424182"/>
+ <node id="7668352971" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0070082" lon="105.8423822"/>
+ <node id="7668352972" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0069530" lon="105.8424154"/>
+ <node id="7668352973" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0069105" lon="105.8424152"/>
+ <node id="7668352974" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0069099" lon="105.8425800"/>
+ <node id="7668352975" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0068904" lon="105.8437998"/>
+ <node id="7668352976" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0069070" lon="105.8437988"/>
+ <node id="7668352977" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0069398" lon="105.8436425"/>
+ <node id="7668352978" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0068900" lon="105.8436423"/>
+ <node id="7668352979" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0069415" lon="105.8432518"/>
+ <node id="7668352980" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0069100" lon="105.8432517"/>
+ <node id="7668352981" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0069108" lon="105.8430704"/>
+ <node id="7668352982" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0069488" lon="105.8425802"/>
+ <node id="7668352983" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0069468" lon="105.8430706"/>
+ <node id="7668352984" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0061331" lon="105.8422369"/>
+ <node id="7668359985" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0060808" lon="105.8422361"/>
+ <node id="7668359986" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0069111" lon="105.8425449"/>
+ <node id="7668359987" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0067363" lon="105.8424953"/>
+ <node id="7668359988" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0069104" lon="105.8424927"/>
+ <node id="7668359989" visible="true" version="3" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0065037" lon="105.8437325"/>
+ <node id="7668359990" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0062428" lon="105.8437351"/>
+ <node id="7668359991" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0062437" lon="105.8438343"/>
+ <node id="7668359992" visible="true" version="3" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0065046" lon="105.8438317"/>
+ <node id="7668359993" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0057703" lon="105.8445753"/>
+ <node id="7668359994" visible="true" version="1" changeset="87322015" timestamp="2020-06-30T04:31:06Z" user="vietnam321" uid="11196308" lat="21.0057704" lon="105.8446023"/>
+ <node id="7668359995" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0061191" lon="105.8437368"/>
+ <node id="7668359996" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0058414" lon="105.8437379"/>
+ <node id="7668359997" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0061195" lon="105.8438320"/>
+ <node id="7668359998" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0058417" lon="105.8438331"/>
+ <node id="7668399482" visible="true" version="3" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953" lat="21.0062478" lon="105.8452719"/>
+ <node id="7668399483" visible="true" version="3" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953" lat="21.0061313" lon="105.8452720"/>
+ <node id="7668399484" visible="true" version="1" changeset="87323053" timestamp="2020-06-30T04:53:52Z" user="vietnam321" uid="11196308" lat="21.0066949" lon="105.8450371"/>
+ <node id="7668408789" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0058863" lon="105.8453272"/>
+ <node id="7668408790" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0061754" lon="105.8453318"/>
+ <node id="7668408791" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0061734" lon="105.8454738"/>
+ <node id="7668408792" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0058843" lon="105.8454692"/>
+ <node id="7668408793" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0066344" lon="105.8438020"/>
+ <node id="7668408794" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0066344" lon="105.8437339"/>
+ <node id="7668408795" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0068899" lon="105.8437317"/>
+ <node id="7668532062" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0059114" lon="105.8420079"/>
+ <node id="7668532063" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0058794" lon="105.8420075"/>
+ <node id="7668532064" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0057150" lon="105.8418338"/>
+ <node id="7668532065" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0057132" lon="105.8420016"/>
+ <node id="7668532066" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0058728" lon="105.8425357"/>
+ <node id="7668532067" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0058730" lon="105.8424715"/>
+ <node id="7668532068" visible="true" version="2" changeset="92116192" timestamp="2020-10-07T13:32:01Z" user="vietnam321" uid="11196308" lat="21.0060760" lon="105.8424722"/>
+ <node id="7668532069" visible="true" version="3" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0053598" lon="105.8437183"/>
+ <node id="7668532070" visible="true" version="3" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0055016" lon="105.8438028"/>
+ <node id="7668532071" visible="true" version="3" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0053585" lon="105.8438078"/>
+ <node id="7668532072" visible="true" version="3" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0053810" lon="105.8438082"/>
+ <node id="7668532073" visible="true" version="3" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0055689" lon="105.8438044"/>
+ <node id="7668532074" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0054916" lon="105.8445856"/>
+ <node id="7668532075" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0052647" lon="105.8445882"/>
+ <node id="7668532076" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0052631" lon="105.8444321"/>
+ <node id="7668532077" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0053360" lon="105.8444313"/>
+ <node id="7668532078" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0053367" lon="105.8445057"/>
+ <node id="7668532079" visible="true" version="3" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0052949" lon="105.8443563"/>
+ <node id="7668532080" visible="true" version="3" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0053730" lon="105.8443576"/>
+ <node id="7668532081" visible="true" version="3" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0052943" lon="105.8443977"/>
+ <node id="7668532082" visible="true" version="3" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0053743" lon="105.8443990"/>
+ <node id="7668532083" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0056247" lon="105.8437035"/>
+ <node id="7668532084" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0053642" lon="105.8437009"/>
+ <node id="7668548385" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0053592" lon="105.8435131"/>
+ <node id="7668548386" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0054844" lon="105.8435104"/>
+ <node id="7668548387" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0054844" lon="105.8434460"/>
+ <node id="7668548388" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0056247" lon="105.8434460"/>
+ <node id="7668548395" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0058725" lon="105.8479417"/>
+ <node id="7668548396" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0058746" lon="105.8482648"/>
+ <node id="7668548397" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0061648" lon="105.8482627"/>
+ <node id="7668548398" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0064529" lon="105.8479476"/>
+ <node id="7668548399" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0064540" lon="105.8480075"/>
+ <node id="7668548404" visible="true" version="1" changeset="87325921" timestamp="2020-06-30T05:50:34Z" user="vietnam321" uid="11196308" lat="21.0058744" lon="105.8482301"/>
+ <node id="7702476980" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0041578" lon="105.8418529"/>
+ <node id="7702476982" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0043408" lon="105.8422941"/>
+ <node id="7702476983" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0043462" lon="105.8421154"/>
+ <node id="7702476984" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0042471" lon="105.8421120"/>
+ <node id="7702492885" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0042547" lon="105.8418562"/>
+ <node id="7702519723" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0064378" lon="105.8427868"/>
+ <node id="7702519724" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0064304" lon="105.8434657"/>
+ <node id="7702519725" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0060197" lon="105.8427867"/>
+ <node id="7702519726" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0060171" lon="105.8431540"/>
+ <node id="7702519727" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0060147" lon="105.8434701"/>
+ <node id="7702519728" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0064353" lon="105.8431563"/>
+ <node id="7702519729" visible="true" version="2" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0050765" lon="105.8424412"/>
+ <node id="7702519730" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0055134" lon="105.8433044"/>
+ <node id="7702519731" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0051654" lon="105.8436048"/>
+ <node id="7702519733" visible="true" version="2" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0051225" lon="105.8416722"/>
+ <node id="7702519734" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0053627" lon="105.8416752"/>
+ <node id="7702519736" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0056966" lon="105.8429383"/>
+ <node id="7702519768" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0015250" lon="105.8481381"/>
+ <node id="7702519769" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0017560" lon="105.8484028"/>
+ <node id="7702548093" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0030242" lon="105.8462413"/>
+ <node id="7702548094" visible="true" version="2" changeset="87821231" timestamp="2020-07-10T14:08:17Z" user="vietnam321" uid="11196308" lat="21.0031491" lon="105.8461241"/>
+ <node id="7702548095" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0026949" lon="105.8461720"/>
+ <node id="7702548096" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0023462" lon="105.8461901"/>
+ <node id="7702548097" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0019881" lon="105.8465571"/>
+ <node id="7702548098" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0021543" lon="105.8467689"/>
+ <node id="7702548099" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0011482" lon="105.8477099"/>
+ <node id="7702548104" visible="true" version="3" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0027570" lon="105.8484262"/>
+ <node id="7702548109" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0027477" lon="105.8492428"/>
+ <node id="7702548110" visible="true" version="3" changeset="92627880" timestamp="2020-10-17T13:01:12Z" user="vietnam321" uid="11196308" lat="21.0031286" lon="105.8492356"/>
+ <node id="7702548111" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0031317" lon="105.8490430"/>
+ <node id="7702548112" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0034122" lon="105.8490535"/>
+ <node id="7702548113" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0045308" lon="105.8489746"/>
+ <node id="7702548114" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0042239" lon="105.8488654"/>
+ <node id="7702548115" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0034310" lon="105.8486250"/>
+ <node id="7702548116" visible="true" version="2" changeset="87821231" timestamp="2020-07-10T14:08:17Z" user="vietnam321" uid="11196308" lat="21.0034282" lon="105.8479180"/>
+ <node id="7702548117" visible="true" version="2" changeset="87821231" timestamp="2020-07-10T14:08:17Z" user="vietnam321" uid="11196308" lat="21.0035482" lon="105.8478360"/>
+ <node id="7702548118" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0036288" lon="105.8479265"/>
+ <node id="7702548119" visible="true" version="2" changeset="87821231" timestamp="2020-07-10T14:08:17Z" user="vietnam321" uid="11196308" lat="21.0036100" lon="105.8483047"/>
+ <node id="7702548120" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0040398" lon="105.8482223"/>
+ <node id="7702548121" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0044253" lon="105.8482322"/>
+ <node id="7702548122" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0047232" lon="105.8482157"/>
+ <node id="7702548123" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308" lat="21.0047069" lon="105.8478909"/>
+ <node id="7702571814" visible="true" version="1" changeset="87821231" timestamp="2020-07-10T14:08:17Z" user="vietnam321" uid="11196308" lat="21.0037794" lon="105.8483163"/>
+ <node id="7702571815" visible="true" version="1" changeset="87821231" timestamp="2020-07-10T14:08:17Z" user="vietnam321" uid="11196308" lat="21.0037976" lon="105.8480599"/>
+ <node id="7966635637" visible="true" version="1" changeset="91872727" timestamp="2020-10-02T15:30:40Z" user="ItsLouisAnderson" uid="11691953" lat="21.0050647" lon="105.8416138">
+  <tag k="barrier" v="gate"/>
+ </node>
+ <node id="7984241319" visible="true" version="1" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0047369" lon="105.8456555"/>
+ <node id="7984241320" visible="true" version="1" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0046015" lon="105.8456314"/>
+ <node id="7984241331" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0065507" lon="105.8432750">
+  <tag k="country" v="VN"/>
+  <tag k="flag:type" v="national"/>
+  <tag k="man_made" v="flagpole"/>
+ </node>
+ <node id="7984241332" visible="true" version="1" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0050384" lon="105.8424411"/>
+ <node id="7984241333" visible="true" version="1" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0054148" lon="105.8431316"/>
+ <node id="7984241334" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0072049" lon="105.8416503"/>
+ <node id="7984241342" visible="true" version="1" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0074254" lon="105.8426890">
+  <tag k="barrier" v="gate"/>
+ </node>
+ <node id="7984241343" visible="true" version="1" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953" lat="21.0075967" lon="105.8435475"/>
+ <node id="7984241344" visible="true" version="2" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0072031" lon="105.8435710"/>
+ <node id="7984241345" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0074820" lon="105.8435676">
+  <tag k="barrier" v="gate"/>
+ </node>
+ <node id="8000338523" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0062893" lon="105.8431564"/>
+ <node id="8000338524" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0062856" lon="105.8431243"/>
+ <node id="8000338525" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0062737" lon="105.8431041"/>
+ <node id="8000338526" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0062555" lon="105.8430887"/>
+ <node id="8000338527" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0062330" lon="105.8430827"/>
+ <node id="8000338528" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0062073" lon="105.8430827"/>
+ <node id="8000338529" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0061879" lon="105.8430901"/>
+ <node id="8000338530" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0061704" lon="105.8431055"/>
+ <node id="8000338531" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0061566" lon="105.8431276"/>
+ <node id="8000338532" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0061522" lon="105.8431544"/>
+ <node id="8000338533" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0061572" lon="105.8431779"/>
+ <node id="8000338534" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0061691" lon="105.8431973"/>
+ <node id="8000338535" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0061823" lon="105.8432114"/>
+ <node id="8000338536" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0062086" lon="105.8432195"/>
+ <node id="8000338537" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0062367" lon="105.8432201"/>
+ <node id="8000338538" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0062574" lon="105.8432101"/>
+ <node id="8000338539" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0062737" lon="105.8431953"/>
+ <node id="8000338540" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149" lat="21.0062843" lon="105.8431772"/>
+ <node id="8016187777" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0057124" lon="105.8437238"/>
+ <node id="8016187778" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0057107" lon="105.8438065"/>
+ <node id="8016187779" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0062973" lon="105.8440602"/>
+ <node id="8016187780" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0062964" lon="105.8445949"/>
+ <node id="8016187781" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0064043" lon="105.8445951"/>
+ <node id="8016187782" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0064052" lon="105.8440604"/>
+ <node id="8016187783" visible="true" version="2" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953" lat="21.0063415" lon="105.8450343"/>
+ <node id="8016187784" visible="true" version="2" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953" lat="21.0063416" lon="105.8451095"/>
+ <node id="8016235085" visible="true" version="2" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953" lat="21.0062477" lon="105.8451095"/>
+ <node id="8016235089" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0060147" lon="105.8454713"/>
+ <node id="8016235098" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0043381" lon="105.8423183"/>
+ <node id="8016235099" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0041388" lon="105.8418542"/>
+ <node id="8016235115" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0055301" lon="105.8457859"/>
+ <node id="8016235116" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0055265" lon="105.8459073"/>
+ <node id="8016235117" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0053314" lon="105.8459006"/>
+ <node id="8016235118" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0053350" lon="105.8457793"/>
+ <node id="8016235139" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0023144" lon="105.8489161"/>
+ <node id="8016235141" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0020835" lon="105.8491296"/>
+ <node id="8016235142" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0016476" lon="105.8486257"/>
+ <node id="8016235143" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0018088" lon="105.8484636"/>
+ <node id="8016235144" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0014236" lon="105.8480318"/>
+ <node id="8016235160" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308" lat="21.0014012" lon="105.8480057"/>
+ <node id="8016255616" visible="true" version="1" changeset="92627880" timestamp="2020-10-17T13:01:12Z" user="vietnam321" uid="11196308" lat="21.0031294" lon="105.8490684"/>
+ <node id="8034817856" visible="true" version="1" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0046796" lon="105.8456938"/>
+ <node id="8034817857" visible="true" version="1" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0043869" lon="105.8456652"/>
+ <node id="8034817858" visible="true" version="1" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0046779" lon="105.8460982"/>
+ <node id="8034817874" visible="true" version="1" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0060807" lon="105.8439341"/>
+ <node id="8034817875" visible="true" version="1" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0058682" lon="105.8439311"/>
+ <node id="8034817876" visible="true" version="1" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0058596" lon="105.8446361"/>
+ <node id="8034817877" visible="true" version="1" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0060722" lon="105.8446390"/>
+ <node id="8034817878" visible="true" version="1" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0056574" lon="105.8438607"/>
+ <node id="8034817879" visible="true" version="1" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0055380" lon="105.8438596"/>
+ <node id="8034817880" visible="true" version="1" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0055320" lon="105.8445964"/>
+ <node id="8034817881" visible="true" version="1" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953" lat="21.0056515" lon="105.8445975"/>
+ <node id="8137323544" visible="true" version="1" changeset="94363160" timestamp="2020-11-18T12:36:41Z" user="ItsLouisAnderson" uid="11691953" lat="21.0074632" lon="105.8426859">
+  <tag k="crossing" v="unmarked"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="8137323548" visible="true" version="1" changeset="94363160" timestamp="2020-11-18T12:36:41Z" user="ItsLouisAnderson" uid="11691953" lat="21.0075300" lon="105.8435620">
+  <tag k="crossing" v="unmarked"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="8340838062" visible="true" version="1" changeset="97810337" timestamp="2021-01-20T06:02:02Z" user="ItsLouisAnderson" uid="11691953" lat="21.0034331" lon="105.8447493"/>
+ <node id="8341653384" visible="true" version="2" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0062781" lon="105.8438967"/>
+ <node id="8407730148" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0051875" lon="105.8446723"/>
+ <node id="8407730149" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0063323" lon="105.8446907"/>
+ <node id="8407730150" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0064623" lon="105.8446636"/>
+ <node id="8407730151" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0065566" lon="105.8446278"/>
+ <node id="8407730152" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0067430" lon="105.8445342"/>
+ <node id="8407730153" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0069041" lon="105.8444195"/>
+ <node id="8407730154" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0070053" lon="105.8443296"/>
+ <node id="8407730155" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0070594" lon="105.8442261"/>
+ <node id="8407730156" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0071699" lon="105.8439894"/>
+ <node id="8407730157" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0071940" lon="105.8438292"/>
+ <node id="8407730158" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0071963" lon="105.8431649"/>
+ <node id="8407730159" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0071595" lon="105.8425512"/>
+ <node id="8407730160" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0070330" lon="105.8420693"/>
+ <node id="8407730161" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0069892" lon="105.8419670"/>
+ <node id="8407730162" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0069421" lon="105.8419017"/>
+ <node id="8407730163" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0068822" lon="105.8418413"/>
+ <node id="8407730164" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0068144" lon="105.8418080"/>
+ <node id="8407730165" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0067568" lon="105.8417945"/>
+ <node id="8407730166" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0059963" lon="105.8417711"/>
+ <node id="8407730167" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0059446" lon="105.8417440"/>
+ <node id="8407730168" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0059135" lon="105.8417230"/>
+ <node id="8407730169" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0058606" lon="105.8417218"/>
+ <node id="8407730170" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0050632" lon="105.8417155"/>
+ <node id="8407730171" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0056940" lon="105.8416791"/>
+ <node id="8407730172" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953" lat="21.0057006" lon="105.8417205"/>
+ <node id="8607477583" visible="true" version="1" changeset="102579518" timestamp="2021-04-08T16:47:38Z" user="ItsLouisAnderson" uid="11691953" lat="21.0060569" lon="105.8447327"/>
+ <node id="8607477584" visible="true" version="1" changeset="102579518" timestamp="2021-04-08T16:47:38Z" user="ItsLouisAnderson" uid="11691953" lat="21.0051447" lon="105.8447243"/>
+ <node id="8607477585" visible="true" version="1" changeset="102579518" timestamp="2021-04-08T16:47:38Z" user="ItsLouisAnderson" uid="11691953" lat="21.0051384" lon="105.8455149"/>
+ <node id="8607477586" visible="true" version="1" changeset="102579518" timestamp="2021-04-08T16:47:38Z" user="ItsLouisAnderson" uid="11691953" lat="21.0055294" lon="105.8455184"/>
+ <node id="8607477587" visible="true" version="1" changeset="102579518" timestamp="2021-04-08T16:47:38Z" user="ItsLouisAnderson" uid="11691953" lat="21.0055311" lon="105.8452992"/>
+ <node id="8607477588" visible="true" version="1" changeset="102579518" timestamp="2021-04-08T16:47:38Z" user="ItsLouisAnderson" uid="11691953" lat="21.0060523" lon="105.8453040"/>
+ <way id="37731777" visible="true" version="12" changeset="97810337" timestamp="2021-01-20T06:02:02Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="442575424"/>
+  <nd ref="84819708"/>
+  <nd ref="84819709"/>
+  <nd ref="84819710"/>
+  <nd ref="84819711"/>
+  <nd ref="84819712"/>
+  <nd ref="84819713"/>
+  <nd ref="84819714"/>
+  <nd ref="444504947"/>
+  <nd ref="6657854688"/>
+  <nd ref="283127795"/>
+  <nd ref="6657842578"/>
+  <nd ref="7984241319"/>
+  <nd ref="7984241320"/>
+  <nd ref="448040867"/>
+  <nd ref="642960810"/>
+  <nd ref="915318640"/>
+  <nd ref="642960808"/>
+  <nd ref="6658396772"/>
+  <nd ref="8340838062"/>
+  <nd ref="915310590"/>
+  <nd ref="642960809"/>
+  <nd ref="642960800"/>
+  <nd ref="6657853493"/>
+  <nd ref="642960802"/>
+  <nd ref="642960798"/>
+  <nd ref="642960799"/>
+  <nd ref="6657853489"/>
+  <nd ref="642960801"/>
+  <nd ref="642960803"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="2"/>
+  <tag k="name" v="Phố Trần Đại Nghĩa"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="158465662" visible="true" version="3" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="1706569350"/>
+  <nd ref="1706569373"/>
+  <nd ref="1706569256"/>
+  <nd ref="1706569388"/>
+  <nd ref="1706569403"/>
+  <nd ref="1706569328"/>
+  <nd ref="1706569302"/>
+  <nd ref="1706569336"/>
+  <nd ref="1706569350"/>
+  <tag k="building" v="dormitory"/>
+  <tag k="building:levels" v="4"/>
+  <tag k="name" v="Ký túc xá B8"/>
+ </way>
+ <way id="158465666" visible="true" version="5" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="1706569255"/>
+  <nd ref="7668359987"/>
+  <nd ref="1706569405"/>
+  <nd ref="1706569275"/>
+  <nd ref="7668352984"/>
+  <nd ref="7668359985"/>
+  <nd ref="7668532068"/>
+  <nd ref="1706569349"/>
+  <nd ref="1706569255"/>
+  <tag k="building" v="university"/>
+  <tag k="building:levels" v="2"/>
+  <tag k="name" v="Nhà C2"/>
+ </way>
+ <way id="158465670" visible="true" version="5" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="1706569308"/>
+  <nd ref="1706569288"/>
+  <nd ref="1706569280"/>
+  <nd ref="1706569281"/>
+  <nd ref="1706569308"/>
+  <tag k="building" v="dormitory"/>
+  <tag k="building:levels" v="4"/>
+  <tag k="name" v="Ký túc xá B7"/>
+ </way>
+ <way id="158465672" visible="true" version="4" changeset="94514123" timestamp="2020-11-20T17:02:24Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="1706569292"/>
+  <nd ref="1706569361"/>
+  <nd ref="1706569254"/>
+  <nd ref="7668352976"/>
+  <nd ref="7668352975"/>
+  <nd ref="7668408795"/>
+  <nd ref="7222760195"/>
+  <nd ref="7668352978"/>
+  <nd ref="7668352977"/>
+  <nd ref="7668352979"/>
+  <nd ref="7668352980"/>
+  <nd ref="7668352981"/>
+  <nd ref="7668352983"/>
+  <nd ref="7668352982"/>
+  <nd ref="7668352974"/>
+  <nd ref="7668359986"/>
+  <nd ref="7668359988"/>
+  <nd ref="7668352973"/>
+  <nd ref="7668352972"/>
+  <nd ref="1706569354"/>
+  <nd ref="7668352971"/>
+  <nd ref="7668352970"/>
+  <nd ref="1706569292"/>
+  <tag k="building" v="university"/>
+  <tag k="building:levels" v="4"/>
+  <tag k="name" v="Nhà C1"/>
+ </way>
+ <way id="158465677" visible="true" version="3" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="1706569313"/>
+  <nd ref="7668532073"/>
+  <nd ref="7668532070"/>
+  <nd ref="1706569309"/>
+  <nd ref="1706569317"/>
+  <nd ref="7668532082"/>
+  <nd ref="7668532081"/>
+  <nd ref="7668532079"/>
+  <nd ref="7668532080"/>
+  <nd ref="7668532072"/>
+  <nd ref="7668532071"/>
+  <nd ref="7668532069"/>
+  <nd ref="1706569313"/>
+  <tag k="building" v="university"/>
+  <tag k="building:levels" v="4"/>
+  <tag k="name" v="Nhà C10"/>
+ </way>
+ <way id="158465683" visible="true" version="3" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="1706569258"/>
+  <nd ref="7668532062"/>
+  <nd ref="7668532063"/>
+  <nd ref="7668532067"/>
+  <nd ref="7668532066"/>
+  <nd ref="1706569367"/>
+  <nd ref="1706569357"/>
+  <nd ref="1706569311"/>
+  <nd ref="7668532065"/>
+  <nd ref="7668532064"/>
+  <nd ref="1706569258"/>
+  <tag k="building" v="university"/>
+  <tag k="building:levels" v="4"/>
+  <tag k="name" v="Nhà C9"/>
+ </way>
+ <way id="179997645" visible="true" version="4" changeset="94363160" timestamp="2020-11-18T12:36:41Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="1904409159"/>
+  <nd ref="7984241342"/>
+  <nd ref="8137323544"/>
+  <nd ref="444221145"/>
+  <tag k="highway" v="service"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="183422691" visible="true" version="4" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="1937927116"/>
+  <nd ref="7668408794"/>
+  <nd ref="7668408793"/>
+  <nd ref="1937927117"/>
+  <nd ref="1937927107"/>
+  <nd ref="7668359992"/>
+  <nd ref="7668359989"/>
+  <nd ref="1937927119"/>
+  <nd ref="1937927116"/>
+  <tag k="building" v="university"/>
+  <tag k="building:levels" v="3"/>
+  <tag k="name" v="Nhà C3"/>
+ </way>
+ <way id="183423456" visible="true" version="3" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="1937936241"/>
+  <nd ref="7668359991"/>
+  <nd ref="7668359990"/>
+  <nd ref="1937936242"/>
+  <nd ref="1937936244"/>
+  <nd ref="7668359995"/>
+  <nd ref="7668359997"/>
+  <nd ref="1937936245"/>
+  <nd ref="1937936241"/>
+  <tag k="building" v="university"/>
+  <tag k="building:levels" v="3"/>
+  <tag k="name" v="Nhà C4"/>
+ </way>
+ <way id="183423457" visible="true" version="4" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="1937936239"/>
+  <nd ref="1937936247"/>
+  <nd ref="8016187777"/>
+  <nd ref="8016187778"/>
+  <nd ref="1937936237"/>
+  <nd ref="7668359994"/>
+  <nd ref="7668359993"/>
+  <nd ref="1937936228"/>
+  <nd ref="7668359998"/>
+  <nd ref="7668359996"/>
+  <nd ref="1937936239"/>
+  <tag k="building" v="university"/>
+  <tag k="building:levels" v="3"/>
+  <tag k="name" v="Nhà C5"/>
+ </way>
+ <way id="183423460" visible="true" version="3" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308">
+  <nd ref="1937936233"/>
+  <nd ref="8016187783"/>
+  <nd ref="8016187784"/>
+  <nd ref="8016235085"/>
+  <nd ref="7668399482"/>
+  <nd ref="7668399483"/>
+  <nd ref="1937936248"/>
+  <nd ref="1937936232"/>
+  <nd ref="1937936233"/>
+  <tag k="building" v="university"/>
+  <tag k="name" v="Nhà C6"/>
+ </way>
+ <way id="183423627" visible="true" version="1" changeset="13296153" timestamp="2012-09-29T13:01:45Z" user="dogiaplinh_94" uid="908152">
+  <nd ref="1937938295"/>
+  <nd ref="1937938301"/>
+  <nd ref="1937938293"/>
+  <nd ref="1937938299"/>
+  <nd ref="1937938295"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="HiTech-DHBKHN"/>
+ </way>
+ <way id="210721031" visible="true" version="22" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="1706569272"/>
+  <nd ref="7668548398"/>
+  <nd ref="7668548399"/>
+  <nd ref="1706569315"/>
+  <nd ref="7668548397"/>
+  <nd ref="7668548396"/>
+  <nd ref="7668548404"/>
+  <nd ref="7668548395"/>
+  <nd ref="5835644967"/>
+  <nd ref="7702548123"/>
+  <nd ref="7702548122"/>
+  <nd ref="7702548121"/>
+  <nd ref="7702548120"/>
+  <nd ref="7702571815"/>
+  <nd ref="7702571814"/>
+  <nd ref="7702548119"/>
+  <nd ref="7702548118"/>
+  <nd ref="7702548117"/>
+  <nd ref="7702548116"/>
+  <nd ref="7702548115"/>
+  <nd ref="1706569295"/>
+  <nd ref="7702548114"/>
+  <nd ref="7702548113"/>
+  <nd ref="1706569368"/>
+  <nd ref="7702548112"/>
+  <nd ref="7702548111"/>
+  <nd ref="8016255616"/>
+  <nd ref="7702548110"/>
+  <nd ref="7702548109"/>
+  <nd ref="7702548104"/>
+  <nd ref="8016235139"/>
+  <nd ref="8016235141"/>
+  <nd ref="8016235142"/>
+  <nd ref="8016235143"/>
+  <nd ref="7702519769"/>
+  <nd ref="7702519768"/>
+  <nd ref="8016235144"/>
+  <nd ref="8016235160"/>
+  <nd ref="7702548099"/>
+  <nd ref="7702548098"/>
+  <nd ref="7702548097"/>
+  <nd ref="7702548096"/>
+  <nd ref="7702548095"/>
+  <nd ref="1706569282"/>
+  <nd ref="7702548093"/>
+  <nd ref="7702548094"/>
+  <nd ref="1706569329"/>
+  <nd ref="4666455111"/>
+  <nd ref="8034817858"/>
+  <nd ref="8034817857"/>
+  <nd ref="8034817856"/>
+  <nd ref="1706569304"/>
+  <nd ref="1706569335"/>
+  <nd ref="7222683783"/>
+  <nd ref="1706569342"/>
+  <nd ref="1706569298"/>
+  <nd ref="1706569260"/>
+  <nd ref="1706569264"/>
+  <nd ref="1706569330"/>
+  <nd ref="2266120491"/>
+  <nd ref="8016235099"/>
+  <nd ref="7702476980"/>
+  <nd ref="7702492885"/>
+  <nd ref="7702476984"/>
+  <nd ref="7702476983"/>
+  <nd ref="7702476982"/>
+  <nd ref="8016235098"/>
+  <nd ref="1706569262"/>
+  <nd ref="1706569341"/>
+  <nd ref="7966635637"/>
+  <nd ref="7984241334"/>
+  <nd ref="1706569322"/>
+  <nd ref="7984241342"/>
+  <nd ref="7984241345"/>
+  <nd ref="1706569263"/>
+  <nd ref="1706569323"/>
+  <nd ref="1706569340"/>
+  <nd ref="1706569321"/>
+  <nd ref="7190777926"/>
+  <nd ref="1706569285"/>
+  <nd ref="1706569276"/>
+  <nd ref="1706569303"/>
+  <nd ref="1706569271"/>
+  <nd ref="1706569325"/>
+  <nd ref="1706569339"/>
+  <nd ref="1706569269"/>
+  <nd ref="1706569272"/>
+  <tag k="addr:city" v="Hà Nội"/>
+  <tag k="addr:country" v="VN"/>
+  <tag k="addr:district" v="Hai Bà Trưng"/>
+  <tag k="addr:housenumber" v="1"/>
+  <tag k="addr:province" v="Hà Nội"/>
+  <tag k="addr:street" v="Đại Cồ Việt"/>
+  <tag k="addr:subdistrict" v="Bách Khoa"/>
+  <tag k="amenity" v="university"/>
+  <tag k="internet_access" v="yes"/>
+  <tag k="internet_access:fee" v="customers"/>
+  <tag k="internet_access:ssid" v="HUST-STUDENT"/>
+  <tag k="name" v="Trường Đại học Bách khoa Hà Nội"/>
+  <tag k="name:en" v="Hanoi University of Science and Technology"/>
+  <tag k="name:fr" v="Institut Polytechnique de Hanoi"/>
+  <tag k="name:id" v="Universitas Politeknik Hanoi"/>
+  <tag k="name:ja" v="ハノイ工科大学"/>
+  <tag k="name:zh" v="河内百科大学"/>
+  <tag k="short_name" v="HUST"/>
+  <tag k="start_date" v="1956"/>
+  <tag k="website" v="https://www.hust.edu.vn/"/>
+  <tag k="wikidata" v="Q3075696"/>
+  <tag k="wikipedia" v="vi:Trường Đại học Bách khoa Hà Nội"/>
+ </way>
+ <way id="382896116" visible="true" version="4" changeset="95488279" timestamp="2020-12-08T12:45:25Z" user="Username42069" uid="12250897">
+  <nd ref="3861040370"/>
+  <nd ref="3861040371"/>
+  <nd ref="3861040372"/>
+  <nd ref="3861040373"/>
+  <nd ref="3861040370"/>
+  <tag k="addr:city" v="Hà Nội"/>
+  <tag k="addr:country" v="VN"/>
+  <tag k="addr:district" v="Hai Bà Trưng"/>
+  <tag k="addr:housenumber" v="B7"/>
+  <tag k="addr:postcode" v="10999"/>
+  <tag k="addr:street" v="Trần Đại Nghĩa"/>
+  <tag k="addr:subdistrict" v="KTX Bách Khoa"/>
+  <tag k="amenity" v="cafe"/>
+  <tag k="building" v="yes"/>
+  <tag k="cuisine" v="coffee_shop"/>
+  <tag k="internet_access" v="wlan"/>
+  <tag k="layer" v="-1"/>
+  <tag k="location" v="surface"/>
+  <tag k="name" v="Cafe Mộc"/>
+  <tag k="opening_hours" v="7:00 - 23:00"/>
+  <tag k="phone" v="04 2212 3600"/>
+  <tag k="smoking" v="yes"/>
+  <tag k="website" v="https://www.facebook.com/Cafe.Moc.BK/"/>
+ </way>
+ <way id="472431975" visible="true" version="5" changeset="81000471" timestamp="2020-02-14T09:41:47Z" user="GrabVN-DucMC" uid="10257187">
+  <nd ref="426927892"/>
+  <nd ref="426927906"/>
+  <nd ref="6658027047"/>
+  <nd ref="6658027054"/>
+  <nd ref="5369311100"/>
+  <nd ref="426927907"/>
+  <nd ref="442572174"/>
+  <nd ref="444504947"/>
+  <tag k="highway" v="service"/>
+  <tag k="name" v="Ngõ 30 Tạ Quang Bửu"/>
+  <tag k="oneway" v="no"/>
+  <tag k="oneway:motorcar" v="yes"/>
+  <tag k="service" v="alley"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="596802432" visible="true" version="3" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308">
+  <nd ref="5684339536"/>
+  <nd ref="7702519726"/>
+  <nd ref="5684339528"/>
+  <tag k="highway" v="path"/>
+ </way>
+ <way id="596802435" visible="true" version="2" changeset="59828424" timestamp="2018-06-14T00:59:58Z" user="Rakesh9" uid="7671617">
+  <nd ref="5684339530"/>
+  <nd ref="5684339532"/>
+  <nd ref="5684339529"/>
+  <tag k="highway" v="path"/>
+ </way>
+ <way id="596802437" visible="true" version="3" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308">
+  <nd ref="5684339532"/>
+  <nd ref="7702519728"/>
+  <nd ref="5684339531"/>
+  <tag k="highway" v="path"/>
+ </way>
+ <way id="596802440" visible="true" version="3" changeset="81067557" timestamp="2020-02-16T10:55:04Z" user="Trịnh Bảo Ngọc" uid="10787424">
+  <nd ref="5684339548"/>
+  <nd ref="5684339547"/>
+  <nd ref="5684339546"/>
+  <nd ref="5684339545"/>
+  <nd ref="5684339544"/>
+  <nd ref="5684339531"/>
+  <nd ref="5684339543"/>
+  <nd ref="5684339542"/>
+  <nd ref="7216073403"/>
+  <nd ref="5684339541"/>
+  <nd ref="5684339540"/>
+  <nd ref="5684339539"/>
+  <nd ref="5684339538"/>
+  <nd ref="5684339537"/>
+  <nd ref="5684339536"/>
+  <nd ref="5684339535"/>
+  <nd ref="5684339534"/>
+  <nd ref="5684339533"/>
+  <nd ref="5684339548"/>
+  <tag k="highway" v="path"/>
+ </way>
+ <way id="596802451" visible="true" version="2" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308">
+  <nd ref="5684339561"/>
+  <nd ref="7702519736"/>
+  <nd ref="5684339528"/>
+  <nd ref="5684339559"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="596802454" visible="true" version="2" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308">
+  <nd ref="5684339562"/>
+  <nd ref="5684339530"/>
+  <nd ref="7702519723"/>
+  <nd ref="7702519725"/>
+  <nd ref="5684339561"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="596802457" visible="true" version="2" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308">
+  <nd ref="5684339560"/>
+  <nd ref="5684339529"/>
+  <nd ref="7702519724"/>
+  <nd ref="7702519727"/>
+  <nd ref="5684339559"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="596802461" visible="true" version="1" changeset="59767201" timestamp="2018-06-12T08:11:04Z" user="Rakesh9" uid="7671617">
+  <nd ref="5684339560"/>
+  <nd ref="5684339562"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="596802464" visible="true" version="1" changeset="59767201" timestamp="2018-06-12T08:11:04Z" user="Rakesh9" uid="7671617">
+  <nd ref="5684339563"/>
+  <nd ref="5684339580"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="596802485" visible="true" version="2" changeset="102579518" timestamp="2021-04-08T16:47:38Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="5684339579"/>
+  <nd ref="5684339578"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="596802486" visible="true" version="1" changeset="59767201" timestamp="2018-06-12T08:11:04Z" user="Rakesh9" uid="7671617">
+  <nd ref="5684339582"/>
+  <nd ref="5684339581"/>
+  <nd ref="5684339580"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="601455461" visible="true" version="2" changeset="95646507" timestamp="2020-12-11T00:08:11Z" user="Username42069" uid="12250897">
+  <nd ref="84819711"/>
+  <nd ref="5716457422"/>
+  <nd ref="5716457421"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Ngõ 43 Trần Đại Nghĩa"/>
+ </way>
+ <way id="708550657" visible="true" version="1" changeset="72776607" timestamp="2019-07-29T15:42:06Z" user="Corban8" uid="4240913">
+  <nd ref="6658027061"/>
+  <nd ref="6658027060"/>
+  <nd ref="6658027059"/>
+  <nd ref="6658027058"/>
+  <nd ref="6658027057"/>
+  <nd ref="6658027056"/>
+  <nd ref="6658027055"/>
+  <nd ref="426927907"/>
+  <tag k="highway" v="residential"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="755376850" visible="true" version="2" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308">
+  <nd ref="7056058608"/>
+  <nd ref="7056058609"/>
+  <nd ref="7056058610"/>
+  <nd ref="7056058611"/>
+  <nd ref="7056058608"/>
+  <tag k="addr:street" v="Phố Trần Đại Nghĩa"/>
+  <tag k="building" v="dormitory"/>
+  <tag k="building:levels" v="4"/>
+  <tag k="name" v="Ký Túc xá B7bis"/>
+ </way>
+ <way id="770242547" visible="true" version="10" changeset="103301973" timestamp="2021-04-21T02:55:54Z" user="Mashin" uid="187467">
+  <nd ref="5684339562"/>
+  <nd ref="5684339560"/>
+  <nd ref="5684339529"/>
+  <nd ref="7702519724"/>
+  <nd ref="7702519727"/>
+  <nd ref="5684339559"/>
+  <nd ref="5684339528"/>
+  <nd ref="7702519736"/>
+  <nd ref="5684339561"/>
+  <nd ref="7702519725"/>
+  <nd ref="7702519723"/>
+  <nd ref="5684339530"/>
+  <nd ref="5684339562"/>
+  <tag k="leisure" v="park"/>
+  <tag k="name" v="Quảng trường C1"/>
+  <tag k="opening_hours" v="05:00-22:00"/>
+  <tag k="operator" v="Trường Đại học Bách Khoa Hà Nội"/>
+  <tag k="place" v="square"/>
+ </way>
+ <way id="770336405" visible="true" version="3" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308">
+  <nd ref="7190777923"/>
+  <nd ref="7190777924"/>
+  <nd ref="7190777925"/>
+  <nd ref="7668399484"/>
+  <nd ref="7190777927"/>
+  <nd ref="7190777928"/>
+  <nd ref="7190777923"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Nhà C3b - CFL"/>
+ </way>
+ <way id="772876617" visible="true" version="8" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="7702519733"/>
+  <nd ref="7702519734"/>
+  <nd ref="8407730171"/>
+  <nd ref="7702519736"/>
+  <nd ref="7984241333"/>
+  <nd ref="5684339552"/>
+  <nd ref="5684339551"/>
+  <nd ref="7222760185"/>
+  <nd ref="7702519733"/>
+  <tag k="landuse" v="recreation_ground"/>
+  <tag k="leisure" v="park"/>
+  <tag k="operator" v="Trường Đại học Bách Khoa Hà Nội"/>
+ </way>
+ <way id="773791179" visible="true" version="1" changeset="81174055" timestamp="2020-02-18T13:52:05Z" user="Trịnh Bảo Ngọc" uid="10787424">
+  <nd ref="7222760186"/>
+  <nd ref="7222760187"/>
+  <nd ref="7222760188"/>
+  <nd ref="7222760189"/>
+  <nd ref="7222760190"/>
+  <nd ref="7222760191"/>
+  <nd ref="7222760186"/>
+  <tag k="landuse" v="grass"/>
+ </way>
+ <way id="773791180" visible="true" version="1" changeset="81174055" timestamp="2020-02-18T13:52:05Z" user="Trịnh Bảo Ngọc" uid="10787424">
+  <nd ref="7222760192"/>
+  <nd ref="7222760193"/>
+  <nd ref="7222760194"/>
+  <nd ref="7222760195"/>
+  <nd ref="7222760196"/>
+  <nd ref="7222760197"/>
+  <nd ref="7222760198"/>
+  <nd ref="7222760199"/>
+  <nd ref="7222760192"/>
+  <tag k="landuse" v="grass"/>
+ </way>
+ <way id="773791181" visible="true" version="1" changeset="81174055" timestamp="2020-02-18T13:52:05Z" user="Trịnh Bảo Ngọc" uid="10787424">
+  <nd ref="7222760200"/>
+  <nd ref="7222760201"/>
+  <nd ref="7222760202"/>
+  <nd ref="7222760203"/>
+  <nd ref="7222760200"/>
+  <tag k="landuse" v="grass"/>
+ </way>
+ <way id="821287771" visible="true" version="3" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="7668359986"/>
+  <nd ref="1706569255"/>
+  <nd ref="7668359987"/>
+  <nd ref="7668359988"/>
+  <nd ref="7668359986"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="2"/>
+  <tag k="level" v="2"/>
+ </way>
+ <way id="821287772" visible="true" version="3" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="7668359989"/>
+  <nd ref="7668359990"/>
+  <nd ref="7668359991"/>
+  <nd ref="7668359992"/>
+  <nd ref="7668359989"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="3"/>
+  <tag k="level" v="2"/>
+ </way>
+ <way id="821287773" visible="true" version="3" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="7668359995"/>
+  <nd ref="7668359996"/>
+  <nd ref="7668359998"/>
+  <nd ref="7668359997"/>
+  <nd ref="7668359995"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="3"/>
+  <tag k="level" v="2"/>
+ </way>
+ <way id="821292438" visible="true" version="2" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308">
+  <nd ref="7668408789"/>
+  <nd ref="7668408790"/>
+  <nd ref="7668408791"/>
+  <nd ref="8016235089"/>
+  <nd ref="7668408792"/>
+  <nd ref="7668408789"/>
+  <tag k="building" v="university"/>
+  <tag k="name" v="Nhà C15"/>
+ </way>
+ <way id="821292439" visible="true" version="3" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="7668352975"/>
+  <nd ref="7668408793"/>
+  <nd ref="7668408794"/>
+  <nd ref="7668408795"/>
+  <nd ref="7668352975"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="3"/>
+  <tag k="level" v="2"/>
+ </way>
+ <way id="821304200" visible="true" version="3" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="1706569349"/>
+  <nd ref="7668532066"/>
+  <nd ref="7668532067"/>
+  <nd ref="7668532068"/>
+  <nd ref="1706569349"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="2"/>
+  <tag k="level" v="2"/>
+ </way>
+ <way id="821304201" visible="true" version="3" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="1706569309"/>
+  <nd ref="7668532074"/>
+  <nd ref="7668532075"/>
+  <nd ref="7668532076"/>
+  <nd ref="7668532077"/>
+  <nd ref="7668532078"/>
+  <nd ref="1706569317"/>
+  <nd ref="1706569309"/>
+  <tag k="building" v="university"/>
+  <tag k="building:levels" v="4"/>
+  <tag k="name" v="Nhà C10b"/>
+ </way>
+ <way id="821304202" visible="true" version="2" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="7668532083"/>
+  <nd ref="7668532084"/>
+  <nd ref="7668548385"/>
+  <nd ref="7668548386"/>
+  <nd ref="7668548387"/>
+  <nd ref="7668548388"/>
+  <nd ref="7668532083"/>
+  <tag k="building" v="university"/>
+  <tag k="building:levels" v="4"/>
+  <tag k="name" v="ITIMS"/>
+ </way>
+ <way id="824886230" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308">
+  <nd ref="7702519723"/>
+  <nd ref="7702519728"/>
+  <nd ref="7702519724"/>
+  <tag k="highway" v="path"/>
+ </way>
+ <way id="824886231" visible="true" version="1" changeset="87820679" timestamp="2020-07-10T13:54:05Z" user="vietnam321" uid="11196308">
+  <nd ref="7702519725"/>
+  <nd ref="7702519726"/>
+  <nd ref="7702519727"/>
+  <tag k="highway" v="path"/>
+ </way>
+ <way id="824886232" visible="true" version="2" changeset="92096908" timestamp="2020-10-07T08:55:28Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="7984241332"/>
+  <nd ref="7702519729"/>
+  <nd ref="5684339528"/>
+  <nd ref="7702519730"/>
+  <nd ref="7702519731"/>
+  <nd ref="5684339550"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="856290144" visible="true" version="2" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="8407730172"/>
+  <nd ref="5684339561"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="856290146" visible="true" version="2" changeset="94363160" timestamp="2020-11-18T12:36:41Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="7984241343"/>
+  <nd ref="8137323548"/>
+  <nd ref="7984241345"/>
+  <nd ref="7984241344"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="858177153" visible="true" version="1" changeset="92359011" timestamp="2020-10-12T13:40:49Z" user="DucToan2410" uid="7563149">
+  <nd ref="8000338523"/>
+  <nd ref="8000338524"/>
+  <nd ref="8000338525"/>
+  <nd ref="8000338526"/>
+  <nd ref="8000338527"/>
+  <nd ref="8000338528"/>
+  <nd ref="8000338529"/>
+  <nd ref="8000338530"/>
+  <nd ref="8000338531"/>
+  <nd ref="8000338532"/>
+  <nd ref="8000338533"/>
+  <nd ref="8000338534"/>
+  <nd ref="8000338535"/>
+  <nd ref="8000338536"/>
+  <nd ref="8000338537"/>
+  <nd ref="8000338538"/>
+  <nd ref="8000338539"/>
+  <nd ref="8000338540"/>
+  <nd ref="8000338523"/>
+  <tag k="name" v="Đài phun nước Bách Khoa"/>
+  <tag k="natural" v="water"/>
+  <tag k="water" v="lake"/>
+ </way>
+ <way id="860063992" visible="true" version="2" changeset="94708062" timestamp="2020-11-24T12:58:47Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="1706569313"/>
+  <nd ref="8016187777"/>
+  <nd ref="8016187778"/>
+  <nd ref="7668532073"/>
+  <nd ref="1706569313"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="3"/>
+ </way>
+ <way id="860063993" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308">
+  <nd ref="8016187779"/>
+  <nd ref="8016187780"/>
+  <nd ref="8016187781"/>
+  <nd ref="8016187782"/>
+  <nd ref="8016187779"/>
+  <tag k="building" v="university"/>
+  <tag k="name" v="Nhà C4b"/>
+ </way>
+ <way id="860063996" visible="true" version="1" changeset="92627465" timestamp="2020-10-17T12:49:02Z" user="vietnam321" uid="11196308">
+  <nd ref="8016235115"/>
+  <nd ref="8016235116"/>
+  <nd ref="8016235117"/>
+  <nd ref="8016235118"/>
+  <nd ref="8016235115"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="862423888" visible="true" version="1" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="8034817874"/>
+  <nd ref="8034817875"/>
+  <nd ref="8034817876"/>
+  <nd ref="8034817877"/>
+  <nd ref="8034817874"/>
+  <tag k="amenity" v="parking"/>
+ </way>
+ <way id="862423889" visible="true" version="1" changeset="92868608" timestamp="2020-10-22T06:01:27Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="8034817878"/>
+  <nd ref="8034817879"/>
+  <nd ref="8034817880"/>
+  <nd ref="8034817881"/>
+  <nd ref="8034817878"/>
+  <tag k="amenity" v="motorcycle_parking"/>
+ </way>
+ <way id="897506142" visible="true" version="1" changeset="97830698" timestamp="2021-01-20T10:47:31Z" user="vin029" uid="10503936">
+  <nd ref="1905155065"/>
+  <nd ref="8341653384"/>
+  <tag k="highway" v="service"/>
+  <tag k="service" v="alley"/>
+ </way>
+ <way id="905363915" visible="true" version="1" changeset="98965981" timestamp="2021-02-09T10:08:21Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="426927875"/>
+  <nd ref="8407730148"/>
+  <nd ref="5684339578"/>
+  <nd ref="5684339580"/>
+  <nd ref="1905155065"/>
+  <nd ref="8407730149"/>
+  <nd ref="8407730150"/>
+  <nd ref="8407730151"/>
+  <nd ref="8407730152"/>
+  <nd ref="8407730153"/>
+  <nd ref="8407730154"/>
+  <nd ref="8407730155"/>
+  <nd ref="8407730156"/>
+  <nd ref="8407730157"/>
+  <nd ref="7984241344"/>
+  <nd ref="8407730158"/>
+  <nd ref="1904409159"/>
+  <nd ref="8407730159"/>
+  <nd ref="8407730160"/>
+  <nd ref="8407730161"/>
+  <nd ref="8407730162"/>
+  <nd ref="8407730163"/>
+  <nd ref="8407730164"/>
+  <nd ref="8407730165"/>
+  <nd ref="8407730166"/>
+  <nd ref="8407730167"/>
+  <nd ref="8407730168"/>
+  <nd ref="8407730169"/>
+  <nd ref="8407730172"/>
+  <nd ref="8407730170"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="927808441" visible="true" version="1" changeset="102579518" timestamp="2021-04-08T16:47:38Z" user="ItsLouisAnderson" uid="11691953">
+  <nd ref="8607477583"/>
+  <nd ref="8607477584"/>
+  <nd ref="8607477585"/>
+  <nd ref="8607477586"/>
+  <nd ref="8607477587"/>
+  <nd ref="8607477588"/>
+  <nd ref="8607477583"/>
+  <tag k="landuse" v="construction"/>
+ </way>
+</osm>
