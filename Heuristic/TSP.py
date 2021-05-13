@@ -83,24 +83,22 @@ class TSP():
     def draw(self, EA = None):
         #draw tsp
         #start depot and end depot
-        plt.plot(self.start_node.lon, self.start_node.lat, "ro", markersize = 12)
-        plt.plot(self.end_node.lon, self.end_node.lat, 'ro', markersize = 9)
+        plt.plot(self.start_node.lon, self.start_node.lat, "ro", markersize = 14)
+        plt.plot(self.end_node.lon, self.end_node.lat, 'ro', markersize = 10)
 
         #customer
         for c in self.customers:
-            plt.plot(c.lon, c.lat, "bo", markersize = 12)
+            plt.plot(c.lon, c.lat, "bo", markersize = 14)
         
         #uav customer 
         for uc in self.uav_customers:
-            plt.plot(uc.lon, uc.lat, "mo", markersize = 9)
+            plt.plot(uc.lon, uc.lat, "mo", markersize = 10)
+        
 
         if EA:
-            x_a = []
-            y_a = []
-            z_a = []
             for node in EA:
                 if EA[node] != INFINITY:        
-                    plt.annotate(round(EA[node], 2), (node.lon, node.lat), (node.lon + 10, node.lat +10), arrowprops= {"arrowstyle":"<-"})
+                    plt.annotate(round(EA[node], 2), (node.lon, node.lat))
 
 
     
@@ -244,3 +242,10 @@ class TSP():
       
         return self.TL[self.nodes_dict[d_node]][self.nodes_dict[a_node]][h], self.TU[self.nodes_dict[d_node]][self.nodes_dict[a_node]][h]
       
+    def congestion_at(self, time_period):
+        for arc_label in self.graph.edges_dict:
+            arc = self.graph.edges_dict[arc_label]
+
+            e = calculate_z1_congestion(time_period, arc)
+
+            arc.congestion_level = e

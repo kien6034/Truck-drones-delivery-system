@@ -135,8 +135,43 @@ class Graph():
                     plt.plot(x, y, 'red', linewidth = 1)
 
         for node in self.nodes:
-            plt.plot(node.lon, node.lat, "ko", markersize= 12)
-            plt.annotate(node.rep_id, (node.lon, node.lat), color= "w", ha= "center", va= "center", fontsize = 7)
+            plt.plot(node.lon, node.lat, "ko", markersize= 14)
+            plt.annotate(node.rep_id, (node.lon, node.lat), color= "w", ha= "center", va= "center", fontsize = 9)
+        # for node in self.nodes:
+        #     plt.plot(node.lon, node.lat, 'ko', markersize = 1)
+
+        # for edge in self.edges_dict:
+        #     arc = self.edges_dict[edge]
+
+        #     x = [arc.src.lon, arc.des.lon]
+        #     y = [arc.src.lat, arc.des.lat]
+
+        #     if dType == "road_type":
+        #         if arc.type == "motorway" or arc.type == "motorway_link" or arc.type == "trunk" or arc.type == "trunk_link":
+        #             plt.plot(x, y, 'purple', linewidth = 8)
+
+        #         #primary and secondary
+        #         if arc.type == "primary" or arc.type == "primary_link" or arc.type == "secondary" or arc.type == "secondary_link":
+        #             plt.plot(x, y, 'blue', linewidth = 4)
+            
+        #         #tertiary and service
+        #         elif arc.type == "tertiary" or arc.type == "tertiary_link" or arc.type == "service" or arc.type == "service_link":
+        #             plt.plot(x, y, 'orange', linewidth = 1)
+        #         #other
+        #         else:
+        #             plt.plot(x, y, 'lightgreen', linewidth = 1)
+        #     elif dType == "num_ways":
+        #         if arc.num_ways == 2:
+        #             plt.plot(x, y, 'lightgreen', linewidth = 1)
+        #         elif arc.num_ways == 1:
+        #             plt.plot(x, y, 'red', linewidth = 1)
+        #     elif dType == "congestion":
+        #         if arc.congestion_level> 0.4:
+        #             plt.plot(x, y, 'red', linewidth = arc.congestion_level * 2)
+        #         else:
+        #             plt.plot(x, y, 'blue', linewidth = arc.congestion_level * 2)
+               
+
 
 
 class Node():

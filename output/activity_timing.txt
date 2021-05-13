@@ -1,0 +1,132 @@
+Activity for Node 13
+[{'uav': UAV-2, 'start_time': 8, 'completion_time': 8.5, 'travel_time': 11.754754581454382}, {'uav': UAV-4, 'start_time': 8.5, 'completion_time': 9.0, 'travel_time': 4.290579747102773}, {'uav': UAV-3, 'start_time': 9.0, 'completion_time': 9.5, 'travel_time': 4.248433381566487}, {'uav': UAV-1, 'start_time': 9.5, 'completion_time': 10.0, 'travel_time': 1.8810863959962187}]
+---------------------------
+++ Truck arrival ++
+8
+----
+++ Retrival ++ 
+----
+++ Delivery ++
+None
+----
+++ Launch ++
+{'uav': UAV-2, 'start_time': 8, 'completion_time': 8.5, 'travel_time': 11.754754581454382}
+{'uav': UAV-4, 'start_time': 8.5, 'completion_time': 9.0, 'travel_time': 4.290579747102773}
+{'uav': UAV-3, 'start_time': 9.0, 'completion_time': 9.5, 'travel_time': 4.248433381566487}
+{'uav': UAV-1, 'start_time': 9.5, 'completion_time': 10.0, 'travel_time': 1.8810863959962187}
+----
+++ Departure ++
+10.0
+=============================================================
+Activity for Node 14
+[{'action': 'delivery', 'element': Truck-1, 'completion_time': 11.048653842632136}, {'action': 'retrieve', 'element': UAV-1, 'arrival_time': 11.881086395996219, 'completion_time': 12.381086395996219}, {'action': 'launch', 'element': UAV-1, 'completion_time': 12.881086395996219, 'travel_time': 18.983849388717736}, {'action': 'retrieve', 'element': UAV-4, 'arrival_time': 13.290579747102772, 'completion_time': 13.790579747102772}, {'action': 'retrieve', 'element': UAV-3, 'arrival_time': 13.748433381566487, 'completion_time': 14.290579747102772}, {'action': 'launch', 'element': UAV-3, 'completion_time': 14.790579747102772, 'travel_time': 24.705053836038644}, {'action': 'launch', 'element': UAV-4, 'completion_time': 15.290579747102772, 'travel_time': 18.379534491514853}, {'action': 'retrieve', 'element': UAV-2, 'arrival_time': 20.25475458145438, 'completion_time': 20.75475458145438}, {'action': 'launch', 'element': UAV-2, 'completion_time': 21.25475458145438, 'travel_time': 25.476083908843833}]
+---------------------------
+++ Truck arrival ++
+10.548653842632136
+----
+++ Retrival ++ 
+{'uav': UAV-1, 'arrival_time': 11.881086395996219}
+{'uav': UAV-4, 'arrival_time': 13.290579747102772}
+{'uav': UAV-3, 'arrival_time': 13.748433381566487}
+{'uav': UAV-2, 'arrival_time': 20.25475458145438}
+----
+++ Delivery ++
+None
+----
+++ Launch ++
+{'uav': UAV-1, 'start_time': 12.381086395996219, 'completion_time': 12.881086395996219, 'travel_time': 18.983849388717736}
+{'uav': UAV-3, 'start_time': 14.290579747102772, 'completion_time': 14.790579747102772, 'travel_time': 24.705053836038644}
+{'uav': UAV-4, 'start_time': 14.790579747102772, 'completion_time': 15.290579747102772, 'travel_time': 18.379534491514853}
+{'uav': UAV-2, 'start_time': 20.75475458145438, 'completion_time': 21.25475458145438, 'travel_time': 25.476083908843833}
+----
+++ Departure ++
+21.25475458145438
+=============================================================
+Activity for Node 2
+[{'action': 'delivery', 'element': Truck-1, 'completion_time': 25.06548067087834}, {'action': 'retrieve', 'element': UAV-1, 'arrival_time': 31.864935784713957, 'completion_time': 32.36493578471396}, {'action': 'launch', 'element': UAV-1, 'completion_time': 32.86493578471396, 'travel_time': 19.558987132171936}, {'action': 'retrieve', 'element': UAV-4, 'arrival_time': 33.67011423861763, 'completion_time': 34.17011423861763}, {'action': 'launch', 'element': UAV-4, 'completion_time': 34.67011423861763, 'travel_time': 24.49887774583899}, {'action': 'retrieve', 'element': UAV-3, 'arrival_time': 39.49563358314141, 'completion_time': 39.99563358314141}, {'action': 'retrieve', 'element': UAV-2, 'arrival_time': 46.73083849029821, 'completion_time': 47.23083849029821}]
+---------------------------
+++ Truck arrival ++
+24.56548067087834
+----
+++ Retrival ++ 
+{'uav': UAV-1, 'arrival_time': 31.864935784713957}
+{'uav': UAV-4, 'arrival_time': 33.67011423861763}
+{'uav': UAV-3, 'arrival_time': 39.49563358314141}
+{'uav': UAV-2, 'arrival_time': 46.73083849029821}
+----
+++ Delivery ++
+None
+----
+++ Launch ++
+{'uav': UAV-1, 'start_time': 32.36493578471396, 'completion_time': 32.86493578471396, 'travel_time': 19.558987132171936}
+{'uav': UAV-4, 'start_time': 34.17011423861763, 'completion_time': 34.67011423861763, 'travel_time': 24.49887774583899}
+----
+++ Departure ++
+47.23083849029821
+=============================================================
+Activity for Node 4
+[{'action': 'delivery', 'element': Truck-1, 'completion_time': 48.43611081173307}, {'action': 'retrieve', 'element': UAV-1, 'arrival_time': 52.42392291688589, 'completion_time': 52.92392291688589}, {'action': 'retrieve', 'element': UAV-4, 'arrival_time': 59.16899198445662, 'completion_time': 59.66899198445662}]
+---------------------------
+++ Truck arrival ++
+47.93611081173307
+----
+++ Retrival ++ 
+{'uav': UAV-1, 'arrival_time': 52.42392291688589}
+{'uav': UAV-4, 'arrival_time': 59.16899198445662}
+----
+++ Delivery ++
+None
+----
+++ Launch ++
+----
+++ Departure ++
+59.66899198445662
+=============================================================
+Activity for Node 19
+[{'action': 'delivery', 'element': Truck-1, 'completion_time': 69.68010486966199}]
+---------------------------
+++ Truck arrival ++
+69.18010486966199
+----
+++ Retrival ++ 
+----
+++ Delivery ++
+None
+----
+++ Launch ++
+----
+++ Departure ++
+69.68010486966199
+=============================================================
+Activity for Node 11
+[{'action': 'delivery', 'element': Truck-1, 'completion_time': 72.6393105797624}]
+---------------------------
+++ Truck arrival ++
+72.1393105797624
+----
+++ Retrival ++ 
+----
+++ Delivery ++
+None
+----
+++ Launch ++
+----
+++ Departure ++
+72.6393105797624
+=============================================================
+Activity for Node 15
+[{'action': 'delivery', 'element': Truck-1, 'completion_time': 73.45174475353414}]
+---------------------------
+++ Truck arrival ++
+72.95174475353414
+----
+++ Retrival ++ 
+----
+++ Delivery ++
+None
+----
+++ Launch ++
+----
+++ Departure ++
+73.45174475353414
+=============================================================

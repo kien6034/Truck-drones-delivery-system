@@ -1,0 +1,98 @@
+
+Node 2 
+---------------------------
+Truck arrival: 8
+---------------
+RETRIEVALS
+[]---------------
+Truck delivery: None
+---------------
+LAUNCHES
+[{'uav': UAV-2, 'start_time': 8, 'completion_time': 8.5, 'travel_time': 17.41919704220451}, {'uav': UAV-4, 'start_time': 8.5, 'completion_time': 9.0, 'travel_time': 9.718526231952422}, {'uav': UAV-1, 'start_time': 9.0, 'completion_time': 9.5, 'travel_time': 8.377480376160154}, {'uav': UAV-3, 'start_time': 9.5, 'completion_time': 10.0, 'travel_time': 8.34224331993736}]
+---------------
+Truck departure: 10.0
+=======================================
+
+Node 1 
+---------------------------
+Truck arrival: 11.110883535358775
+---------------
+RETRIEVALS
+[{'uav': UAV-1, 'arrival_time': 17.877480376160154, 'start_time': 17.877480376160154, 'completion_time': 18.377480376160154}, {'uav': UAV-3, 'arrival_time': 18.34224331993736, 'start_time': 18.377480376160154, 'completion_time': 18.877480376160154}, {'uav': UAV-4, 'arrival_time': 18.718526231952424, 'start_time': 18.877480376160154, 'completion_time': 19.377480376160154}, {'uav': UAV-2, 'arrival_time': 25.91919704220451, 'start_time': 25.91919704220451, 'completion_time': 26.41919704220451}]---------------
+Truck delivery: {'start_time': 11.110883535358775, 'completion_time': 11.610883535358775}
+---------------
+LAUNCHES
+[{'uav': UAV-3, 'start_time': 19.377480376160154, 'completion_time': 19.877480376160154, 'travel_time': 24.63552047277492}, {'uav': UAV-4, 'start_time': 19.877480376160154, 'completion_time': 20.377480376160154, 'travel_time': 21.359627593618825}, {'uav': UAV-1, 'start_time': 20.377480376160154, 'completion_time': 20.877480376160154, 'travel_time': 11.326548928450551}, {'uav': UAV-2, 'start_time': 26.41919704220451, 'completion_time': 26.91919704220451, 'travel_time': 27.18435802875393}]
+---------------
+Truck departure: 26.91919704220451
+=======================================
+
+Node 3 
+---------------------------
+Truck arrival: 28.271024786148303
+---------------
+RETRIEVALS
+[{'uav': UAV-1, 'arrival_time': 32.20402930461071, 'start_time': 32.20402930461071, 'completion_time': 32.70402930461071}, {'uav': UAV-4, 'arrival_time': 41.737107969778975, 'start_time': 41.737107969778975, 'completion_time': 42.237107969778975}, {'uav': UAV-3, 'arrival_time': 44.51300084893508, 'start_time': 44.51300084893508, 'completion_time': 45.01300084893508}, {'uav': UAV-2, 'arrival_time': 54.103555070958436, 'start_time': 54.103555070958436, 'completion_time': 54.603555070958436}]---------------
+Truck delivery: {'start_time': 28.271024786148303, 'completion_time': 28.771024786148303}
+---------------
+LAUNCHES
+[{'uav': UAV-1, 'start_time': 32.70402930461071, 'completion_time': 33.20402930461071, 'travel_time': 19.984509857774967}, {'uav': UAV-4, 'start_time': 42.237107969778975, 'completion_time': 42.737107969778975, 'travel_time': 26.609218755711762}]
+---------------
+Truck departure: 54.603555070958436
+=======================================
+
+Node 4 
+---------------------------
+Truck arrival: 54.78735396973137
+---------------
+RETRIEVALS
+[{'uav': UAV-1, 'arrival_time': 53.18853916238567, 'start_time': 54.78735396973137, 'completion_time': 55.28735396973137}, {'uav': UAV-4, 'arrival_time': 69.34632672549074, 'start_time': 69.34632672549074, 'completion_time': 69.84632672549074}]---------------
+Truck delivery: {'start_time': 55.28735396973137, 'completion_time': 55.78735396973137}
+---------------
+LAUNCHES
+[]
+---------------
+Truck departure: 69.84632672549074
+=======================================
+
+Node 19 
+---------------------------
+Truck arrival: 78.98639221743704
+---------------
+RETRIEVALS
+[]---------------
+Truck delivery: {'start_time': 78.98639221743704, 'completion_time': 79.48639221743704}
+---------------
+LAUNCHES
+[]
+---------------
+Truck departure: 79.48639221743704
+=======================================
+
+Node 11 
+---------------------------
+Truck arrival: 82.4939535815787
+---------------
+RETRIEVALS
+[]---------------
+Truck delivery: {'start_time': 82.4939535815787, 'completion_time': 82.9939535815787}
+---------------
+LAUNCHES
+[]
+---------------
+Truck departure: 82.9939535815787
+=======================================
+
+Node 15 
+---------------------------
+Truck arrival: None
+---------------
+RETRIEVALS
+[]---------------
+Truck delivery: None
+---------------
+LAUNCHES
+[]
+---------------
+Truck departure: None
+=======================================

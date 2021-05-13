@@ -38,6 +38,10 @@ class APCS():
             #set iter objective
             iterO = INFINITY
 
+            #local best tsp and uav cust info
+            ibTSPTour = None
+            ibUAVcustInfo = None
+
             #init pheromone copy
             uav_p = self.uav_p.copy()
             truck_p = self.truck_p.copy()
@@ -49,12 +53,23 @@ class APCS():
 
                 TSPtour, UAVcustInfo, node_and_uavs_to_lauches = ant.construct_solution(truck_p, uav_p, alpha, beta)
                 ant.update_local_pheromone(truck_p, uav_p, TSPtour, UAVcustInfo)
-                plt.show()
-                objVal, activityTimings = ant.build_approx_schedule(TSPtour, UAVcustInfo, node_and_uavs_to_lauches)
-                print(f"Ant finished !")
-                break
-            break
 
+                activity_timings, objVal = ant.build_approx_schedule(TSPtour, UAVcustInfo, node_and_uavs_to_lauches)
+                
+                if objVal < iterO:
+                    iterO = objVal
+                    ibTSPTour = TSPtour
+                    ibUAVcustInfo = UAVcustInfo
+                
+                #TODO
+                ant.local_search(TSPtour, UAVcustInfo)
+
+            #GLOBAL
+            self.global_pheromone_update(truck_p, uav_p, ibTSPTour, ibUAVcustInfo)
+            break
+                
+    def global_pheromone_update(self, truck_p, uav_p, ibTSPTour, ibUAVcustInfo):    
+        pass
 
 class Ant():
     def __init__(self, tsp):
@@ -93,6 +108,8 @@ class Ant():
 
             truck_candidates = list()
             truck_candidate_times = list()
+
+            g_next_truck_node = None
             k = 0 # k to get num of truck candidates 
             #======== SUB_TRUCK_1: get truck candidate
             for node in C:
@@ -137,6 +154,8 @@ class Ant():
             bti = choice(range(len(truck_candidates)), p = truck_candidate_weights)
             next_truck_node = truck_candidates[bti]
             next_travel_time = truck_candidate_times[bti] - time
+
+            g_next_truck_node = next_truck_node
 
             #========= SUB_TRUCK_3
             #update time taken for truck operation
@@ -231,10 +250,10 @@ class Ant():
 
         #when C is empty
         tsp_tour.append(self.tsp.end_node)
-        node_and_uavs_to_lauches[self.tsp.end_node] = {}
+        node_and_uavs_to_lauches[g_next_truck_node] = list()
+        node_and_uavs_to_lauches[self.tsp.end_node] = list()
        
         return tsp_tour, uav_cust_info, node_and_uavs_to_lauches
-
 
 
     def update_local_pheromone(self, truck_p, uav_p, TSPtour, UAVcustInfo):
@@ -250,88 +269,252 @@ class Ant():
        
 
     def build_approx_schedule(self, TSPtour, UAVcustInfo, node_and_uavs_to_lauches):
-        objVal = 0
-        activityTimings = dict()
-        time = CURRENT_TIME
+
+        activity_timings = dict()   
+        objVal = None 
 
         truck = self.tsp.truck
+
+        completion_time = CURRENT_TIME
+
         for node in TSPtour:
-            activityTimings[node] = {
+            activity_timings[node] = {
                 'truck_arrival': None,
-                'retrival': list(), 
-                'delivery': None,
-                'launch': list(),
-                'truck_departure': None,     
+                'retrival': list(),
+                'truck_delivery': None,
+                'launch': list(), 
+                'truck_departure': None,
+                'order_queue': list()
             }
-        for i, node in enumerate(TSPtour):
-            if i == 0: 
-                #define truck arrival time and  departure time  
-                activityTimings[node]['truck_arrival'] = CURRENT_TIME
 
-                #define order of lauches for 
-                uavs_to_launch = node_and_uavs_to_lauches[node]
-                uavs_to_launch = self.launch_order_cri1(uavs_to_launch)
-                
-                for element in uavs_to_launch:
+        for i, truck_node in enumerate(TSPtour):
+            if i == 0:
+                launches = node_and_uavs_to_lauches[truck_node]
+                launches = self.launch_order_cri1(launches)
+
+                #activity timing assigment 
+                activity_timings[truck_node]['truck_arrival'] = completion_time
+
+                for launch in launches:
                     data = {
-                        'uav': element['uav'],
-                        'start_time': time,
-                        'completion_time': time + truck.launch_time,
-                        'travel_time': element['travel_time']
+                        'uav': launch['uav'],
+                        'start_time': completion_time,
+                        'completion_time': completion_time + truck.launch_time,
+                        'travel_time': launch['travel_time']
                     }
-                    activityTimings[node]['launch'].append(data) 
-                    time += truck.launch_time
+                    completion_time += truck.launch_time
+                    activity_timings[truck_node]['launch'].append(data)
 
-                #truck departure time
-                activityTimings[node]['truck_departure'] = time
-              
 
-            elif i == len(TSPtour):
-                pass
+                activity_timings[truck_node]['truck_departure'] = completion_time
+
+                
+            elif i == (len(TSPtour) - 1):
+                preNode = TSPtour[i-1]
+                truck_arrival_time = self.equation_66(preNode, truck_node, activity_timings[preNode]['truck_departure'])
+
+                activity_timings[truck_node]["truck_arrival"] = truck_arrival_time
+                objVal = truck_arrival_time - CURRENT_TIME
+
             else:
                 preNode = TSPtour[i-1]
-                #truck arrival time
-                activityTimings[node]['truck_arrival'] = self.equation_66(preNode, node, activityTimings[preNode]['truck_departure'])
+                #CALCULATE TRUCK ARRIVAL TIME AND UAV ARRIVAL TIME 
+                truck_arrival_time = self.equation_66(preNode, truck_node, activity_timings[preNode]['truck_departure'])
+                completion_time = truck_arrival_time
 
-                #uav arrival
-                uavs_to_retrieve = list()
-                for element in activityTimings[preNode]['launch']:
+                pre_launches = activity_timings[preNode]['launch']
+
+                #arrival
+                arrivals = list()
+                for launch in pre_launches:
                     data = {
-                        'uav': element['uav'],
-                        'arrival_time': element['completion_time'] + element['travel_time']
+                        'uav': launch['uav'],
+                        'start_time': launch['completion_time'] + launch['travel_time'],
+                        'completion_time': None,
                     }
-                    uavs_to_retrieve.append(data)
+                    arrivals.append(data)
+                arrivals = self.retrive_order_cri1(arrivals)
 
+                #launches
+                launches = list()
+                for launch in node_and_uavs_to_lauches[truck_node]:
+                    data = {
+                        'uav': launch['uav'],
+                        'start_time': None,
+                        'completion_time': None,
+                        'travel_time': launch['travel_time']
+                    }
+                    launches.append(data)
+                launches = self.launch_order_cri1(launches)
 
-                uavs_to_retrieve.sort(key =lambda x: x['arrival_time']) #sort uav to retrive in order of increasing arrival time 
-                activityTimings[node]['retrival'] = uavs_to_retrieve
+                order_queue, c_time = self.modify_oder(truck_arrival_time, arrivals, launches)
 
-                #order of launch 
-                uavs_to_launch = node_and_uavs_to_lauches[node]
-                uavs_to_launch = self.launch_order_cri1(uavs_to_launch)
-
-                #get truck arrival time 
-                truck_arrival_time = activityTimings[node]['truck_arrival']
-
-                #modify order
-                order_queue, queue_completion_time = self.modify_order(uavs_to_launch, uavs_to_retrieve, truck_arrival_time)
-
-              
-                activityTimings[node]['truck_departure'] = queue_completion_time 
-
-                
+                #assign element to activity timing 
+                activity_timings[truck_node]["truck_arrival"] = truck_arrival_time
                 for element in order_queue:
-                    if element["action"] == "launch":
+                    if element["action"] == "R":
                         data = {
-                            'uav': element['element'],
-                            'start_time': element['completion_time'] - truck.launch_time,
-                            'completion_time': element['completion_time'],
-                            'travel_time': element['travel_time']
+                            "uav": element["uav"],
+                            "arrival_time": element["start_time"],
+                            "start_time": element["completion_time"] - truck.retrival_time,
+                            "completion_time": element["completion_time"]
                         }
-                        activityTimings[node]['launch'].append(data)
+                        activity_timings[truck_node]["retrival"].append(data)
+                    
+                    elif element["action"] == "D":
+                        data = {
+                            "start_time": element["start_time"],
+                            "completion_time": element["completion_time"]
+                        }
+                        activity_timings[truck_node]["truck_delivery"] = data
+                    elif element["action"] == "L":
+                        data = {
+                            "uav": element["uav"],
+                            "start_time": element["start_time"],
+                            "completion_time": element["completion_time"],
+                            "travel_time": element["travel_time"]
+                        }
+                        activity_timings[truck_node]["launch"].append(data)
 
-        return objVal, activityTimings
+                activity_timings[truck_node]["truck_departure"] = c_time
+
+        #write
+        if False:
+            f = open("out.txt", "a") 
+            for node in TSPtour:
+                activity = activity_timings[node]
+                f.write("" + "\n")
+
+                f.write(f"{node} " + "\n")
+                f.write("---------------------------" + "\n")
+                f.write(f"Truck arrival: {activity['truck_arrival']}" + "\n")
+                f.write("---------------" + "\n")
+                f.write(f"RETRIEVALS" + "\n")
+                f.write(f"{activity['retrival']}")
+                f.write("---------------" + "\n")
+                f.write(f"Truck delivery: {activity['truck_delivery']}" + "\n")
+                f.write("---------------" + "\n")
+                f.write(f"LAUNCHES" + "\n")
+                f.write(f"{activity['launch']}" + "\n" )
+                f.write("---------------" + "\n")
+                f.write(f"Truck departure: {activity['truck_departure']}" + "\n")
+                f.write("=======================================" + "\n")
+            f.close()
+
+        return activity_timings, objVal
+
+            
+
+
     
+    def modify_oder(self, truck_arrival_time, arrivals, launches):
+        
+        order_queue = list()
+
+        completion_time = truck_arrival_time
+        truck = self.tsp.truck
+
+        #init order queue
+        for arrival in arrivals:
+            data = {
+                'action': 'R',
+                'uav': arrival['uav'],
+                'start_time': arrival['start_time'],
+                'completion_time': None,
+            }
+            order_queue.append(data)
+        
+        order_queue.append({
+            'action': 'D',
+            'start_time': None,
+            'completion_time': None
+        })
+
+        for launch in launches:
+            data = {
+                'action': 'L',
+                'uav': launch['uav'],
+                'start_time': None,
+                'completion_time': None,
+                'travel_time': launch["travel_time"]
+            }
+            order_queue.append(data)
+        
+        retrieved_uav = list()        
+
+        #modify queue 
+        for index, element in enumerate(order_queue):
+            swappable = False
+            swapIndex= None
+
+            if element['action'] == "R":
+                waiting_time = element['start_time'] - completion_time
+
+                if waiting_time > truck.delivery_time or waiting_time > truck.launch_time:
+                    #find swappable item
+                    for swap_index in range(index, len(order_queue)):
+                        swap_element = order_queue[swap_index]
+
+                        if swap_element['action'] == "R":
+                            continue
+                        
+                        if swap_element["action"] == "D":
+                            swappable = True
+                            swapIndex = swap_index
+                            break
+
+                        elif swap_element["action"] == "L":
+                            uav = swap_element["uav"]
+                            if uav in retrieved_uav:
+                                swappable = True
+                                swapIndex = swap_index
+                                break
+            
+            if swappable:
+                swapElement = order_queue[swapIndex]
+                order_queue.remove(swap_element)
+                order_queue.insert(index, swap_element)
+                
+                if swapElement["action"] == "D":
+                    swapElement["start_time"] = completion_time
+                    completion_time += truck.delivery_time
+                    swapElement["completion_time"] = completion_time   
+
+                elif swapElement["action"] == "L":
+                    swapElement["start_time"] = completion_time
+                    completion_time += truck.launch_time
+                    swapElement["completion_time"] = completion_time   
+
+            else:
+                if element['action'] == "R":
+                    start_time = max(element["start_time"], completion_time)
+                    completion_time = start_time + truck.retrival_time
+                    element["completion_time"] = completion_time
+
+                    retrieved_uav.append(element["uav"])
+
+                elif element["action"] == "D":
+                    element["start_time"] = completion_time
+                    completion_time += truck.delivery_time
+                    element["completion_time"] = completion_time                    
+
+
+                elif element["action"] == "L":
+                    element["start_time"] = completion_time
+                    completion_time += truck.launch_time
+                    element["completion_time"] = completion_time   
+
+        return order_queue, completion_time
+
+
+
+
+
+
+    def retrive_order_cri1(self, retrivals):
+        retrivals.sort(key =lambda x: x['start_time'], reverse=False)
+
+        return retrivals
 
     def launch_order_cri1(self, uavs_to_launch):
         """Define order of launch for UAV in order of decreasing total flight time"""
@@ -341,106 +524,15 @@ class Ant():
 
 
     def equation_66(self, current_node, next_node, time):
+        d = math.floor(time / 24)
         t = time % 24
         h = math.floor(t)
 
         tl, tu = self.tsp.get_time_travel(current_node, next_node, h)
         time_travel = tl + (t - h) * (tu - tl) / 1 #(66) 
 
-        return time_travel
-    
-    def modify_order(self, uavs_to_launch, uavs_to_retrieve, truck_arrival_time):
-        order_queue = list()    
-        
-        truck = self.tsp.truck
-        #=============SUB1: init order queue - Retrieve --> delivery --> launch
-        
-        for element in uavs_to_retrieve:
-            data = {
-                'action': 'retrieve',
-                'element': element['uav'],
-                'arrival_time': element['arrival_time'],
-                'completion_time': None
-            }
-            order_queue.append(data)
-        
-        order_queue.append({'action': 'delivery', 'element': truck, 'completion_time': None})
+        return d*24 + time_travel
 
-        for element in uavs_to_launch:
-            data = {
-                'action': 'launch',
-                'element': element['uav'],
-                'completion_time': None,
-                'travel_time': element['travel_time']
-            }
-            order_queue.append(data)
-      
-        #===============SUB2: shuffle
-        retrieved_uavs = set()
-        waiting_time = 0
-        completion_time = truck_arrival_time
-
-        for index, element in enumerate(order_queue):
-            if element['action'] != 'retrieve':
-                # if last elemetn 
-                if index == len(order_queue) - 1:
-                    completion_time += truck.launch_time
-                    element['completion_time'] = completion_time
-
-                    continue
-                else:
-                    continue
-
-            #calculate wating time 
-            waiting_time = element['arrival_time'] - completion_time
-
-            if element['arrival_time'] < completion_time: # if uav arrive before completion time of activity -> no waiting time 
-                waiting_time = 0
-            
-            if waiting_time >= truck.launch_time or waiting_time >= truck.delivery_time:
-                #get first none retrival element 
-                swappable = False
-                for s_index in range(index, len(order_queue)):
-                    s_element = order_queue[s_index]
-
-                    if s_element['action'] == "retrieve":
-                        continue
-
-                    if s_element['action'] == "launch":
-                        if s_element['element'] in retrieved_uavs:
-                            #update complettion time - launch event will take place right after previous completion time
-                            completion_time += truck.launch_time
-                            s_element['completion_time'] = completion_time
-
-                            order_queue.remove(s_element)
-                            order_queue.insert(index, s_element)
-                            swappable = True
-                            break
-
-                    if s_element['action'] == "delivery":
-                        completion_time += truck.delivery_time
-                        s_element['completion_time'] = completion_time
-
-                        order_queue.remove(s_element)
-                        order_queue.insert(index, s_element)
-                        swappable = True
-                        break
-                        
-                #if un-swappable --> waiting for uav to arrive and retrive it
-                if not swappable:
-                    completion_time += (waiting_time + truck.retrival_time)
-                    element['completion_time'] = completion_time
-                    retrieved_uavs.add(element['element'])
-
-            else: #cannot insert element between uav's retrivals 
-                retrieved_uavs.add(element['element'])
-
-                #update completeion time 
-                completion_time += (waiting_time + truck.retrival_time)
-                element['completion_time'] = completion_time
-
-        return order_queue, completion_time
-
-    def local_search(self):
+    def local_search(self, TSPtour, UAVcustInfo):
         pass
 
